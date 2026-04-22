@@ -1,0 +1,7 @@
+﻿Manifest.toml
+/results/
+/slurm_logs/
+/checkpoints/
+*.csv
+*.png
+*.jls

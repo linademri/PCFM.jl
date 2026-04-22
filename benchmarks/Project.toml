@@ -1,0 +1,28 @@
+name = "PCFMBenchmarks"
+authors = ["Utkarsh"]
+version = "0.1.0"
+
+# This is a sub-project for the benchmark scripts. When running benchmarks/plot_results.jl
+# use `julia --project=benchmarks` instead of `--project=.` so Plots/CSV/DataFrames are
+# available without polluting the main PCFM package.
+#
+# The benchmark scripts themselves (benchmark_projection.jl, benchmark_sample_pcfm.jl,
+# benchmark_madnlp_sparsity.jl, train_and_save.jl) only use PCFM and stdlib and can be run
+# with `--project=.` (the parent project) directly.
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+PCFM = "b98adb87-64f5-4b9d-af11-955a214774b3"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+[sources]
+PCFM = {path = ".."}
+
+[compat]
+CSV = "0.10"
+DataFrames = "1"
+Plots = "1"
+StatsPlots = "0.15"
+julia = "1.10"

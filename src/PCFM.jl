@@ -1,0 +1,171 @@
+module PCFM
+
+using NeuralOperators
+using Lux
+using Random
+using Optimisers
+using Reactant       # used by the FFM model itself (model.jl, training.jl, sampling.jl)
+using ForwardDiff    # used by default `jacobian` fallback and BatchedGaussNewtonSolver
+
+# ---------------------------------------------------------------------------
+# Existing submodules (unchanged).
+# ---------------------------------------------------------------------------
+include("./data.jl")
+include("./model.jl")
+include("./training.jl")
+
+# ---------------------------------------------------------------------------
+# Projection / constraint machinery. Order matters: constraints define types
+# used by projection; sampling (below) consumes both.
+# ---------------------------------------------------------------------------
+include("./constraints.jl")
+include("./projection.jl")
+
+# ---------------------------------------------------------------------------
+# Stubs for the Optimization.jl weakdep extension. The concrete
+# `_OptimizationJLSolverImpl` type lives here so `AbstractProjectionSolver`
+# dispatch works whether or not the extension is loaded; the user-facing
+# constructor `OptimizationJLSolver(;kwargs...)` is only defined by the
+# extension (PCFMOptimizationExt), so calling it without Optimization.jl
+# loaded raises a helpful error.
+# ---------------------------------------------------------------------------
+"""
+    _OptimizationJLSolverImpl
+
+Concrete backing type for `OptimizationJLSolver`. Kept as an internal type so the public
+name `OptimizationJLSolver` is uniformly a *constructor* rather than a type — this lets us
+expose it as a no-method stub in the core package and as a working constructor once the
+extension loads, without the user noticing the difference.
+"""
+struct _OptimizationJLSolverImpl{O} <: AbstractProjectionSolver
+    tol::Float64
+    max_iter::Int
+    ρ_init::Float64
+    ρ_mult::Float64
+    ρ_max::Float64
+    outer_iter::Int
+    optimizer::O
+end
+
+"""
+    OptimizationJLSolver(; kwargs...)
+
+Solver-agnostic projection backend driven by Optimization.jl (LBFGS by default). Available
+only when `Optimization` and `OptimizationOptimJL` are loaded in the session — this is a
+weak dependency so the core package stays lightweight.
+
+```julia
+using PCFM, Optimization, OptimizationOptimJL  # loads the extension
+solver = OptimizationJLSolver(tol=1e-7)
+```
+"""
+function OptimizationJLSolver(args...; kwargs...)
+    error(
+        "OptimizationJLSolver requires the Optimization.jl extension. " *
+        "Run `using Optimization, OptimizationOptimJL` before constructing it."
+    )
+end
+
+# Extension also adds a project_sample! method; a fallback here gives a cleaner error
+# if a user somehow obtains an `_OptimizationJLSolverImpl` without the extension loaded.
+function project_sample!(
+    ::_OptimizationJLSolverImpl,
+    ::AbstractVector,
+    ::AbstractVector,
+    ::AbstractConstraint,
+)
+    error(
+        "OptimizationJLSolver backend is not available. " *
+        "Load it via `using Optimization, OptimizationOptimJL`."
+    )
+end
+
+# ---------------------------------------------------------------------------
+# Stubs for MadNLP + ExaModels weakdep extensions. Same pattern as above: a
+# concrete impl type lives here, the user-facing constructors are stubs that
+# point users to the right `using` incantation.
+# ---------------------------------------------------------------------------
+"""
+    _MadNLPSolverImpl
+
+Concrete backing type for `MadNLPSolver`. Stores the constructor-time solver configuration
+(tolerances, print level, optional `ExaModels` backend like `CUDABackend()`, optional
+MadNLP linear solver type). The actual `project!` method is added by `PCFMMadNLPExt` once
+ExaModels + MadNLP are loaded.
+"""
+struct _MadNLPSolverImpl{B, L} <: AbstractProjectionSolver
+    tol::Float64
+    max_iter::Int
+    print_level::Any
+    backend::B             # `nothing` for CPU, `CUDABackend()` for GPU
+    linear_solver::L       # `nothing` for default, or e.g. `MadNLPGPU.CUDSSSolver`
+end
+
+"""
+    MadNLPSolver(; tol, max_iter, print_level, backend, linear_solver)
+
+Projection backend that assembles the batched QP as a single ExaModel and solves it with
+MadNLP. Exploits block-diagonal structure across samples via ExaModels' SIMD abstraction,
+producing a single condensed KKT system with `Nb × m` equality constraints. Available only
+when `ExaModels` and `MadNLP` are loaded.
+
+```julia
+using PCFM, ExaModels, MadNLP
+solver = MadNLPSolver(tol = 1e-8)
+```
+
+For GPU execution, additionally load `MadNLPGPU` and `CUDA`, then use `MadNLPGPUSolver`.
+"""
+function MadNLPSolver(args...; kwargs...)
+    error(
+        "MadNLPSolver requires the MadNLP + ExaModels extension. " *
+        "Run `using ExaModels, MadNLP` before constructing it."
+    )
+end
+
+"""
+    MadNLPGPUSolver(; kwargs...)
+
+GPU variant of `MadNLPSolver`, configured with `CUDABackend()` and MadNLP's cuDSS linear
+solver. Available only when `ExaModels`, `MadNLP`, `MadNLPGPU`, and `CUDA` are loaded.
+"""
+function MadNLPGPUSolver(args...; kwargs...)
+    error(
+        "MadNLPGPUSolver requires MadNLPGPU. Run " *
+        "`using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it."
+    )
+end
+
+function project!(
+    ::_MadNLPSolverImpl,
+    ::AbstractArray,
+    ::AbstractArray,
+    ::AbstractConstraint,
+)
+    error(
+        "MadNLPSolver backend is not available. " *
+        "Load it via `using ExaModels, MadNLP` (and `MadNLPGPU, CUDA` for GPU)."
+    )
+end
+
+# ---------------------------------------------------------------------------
+# Sampling. Depends on constraints + projection, so it is included last.
+# ---------------------------------------------------------------------------
+include("./sampling.jl")
+
+# ---------------------------------------------------------------------------
+# Exports.
+# ---------------------------------------------------------------------------
+# Existing public API.
+export FFM
+export prepare_input, interpolate_flow
+export train_ffm!, sample_ffm, sample_pcfm
+export generate_diffusion_data
+
+# New public API.
+export AbstractConstraint, AbstractProjectionSolver
+export LinearICConstraint, EnergyConservationConstraint, MassConservationConstraint, NonlinearConstraint
+export BatchedGaussNewtonSolver, OptimizationJLSolver, MadNLPSolver, MadNLPGPUSolver
+export project, project!, residual, jacobian, constraint_dim, is_linear
+
+end # module PCFM
