@@ -26,7 +26,7 @@ set -euo pipefail
 mkdir -p slurm_logs
 
 # Load Julia — adjust module name to what Engaging has (check `module avail julia`).
-module load julia/1.10 || module load julia
+module load julia/1.12.6 || module load julia/1.12.6
 module list
 
 # Reactant/CUDA-free run — force CPU backend to avoid surprises.

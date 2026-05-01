@@ -21,7 +21,7 @@
 set -euo pipefail
 mkdir -p slurm_logs results
 
-module load julia/1.10 || module load julia
+module load julia/1.12.6 || module load julia/1.12.6
 
 export OPENBLAS_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export JULIA_NUM_THREADS=$SLURM_CPUS_PER_TASK
