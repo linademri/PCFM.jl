@@ -1,0 +1,14 @@
+name = "main_gpu"
+outdir = "results/main_gpu"
+benchmarks = ["projection_deep", "sample_quality", "madnlp_sparsity"]
+
+nx = 100
+nt = 100
+batches = [32, 64, 128, 256, 512]
+constraint = "energy"
+backends = ["gn", "madnlp_gpu"]
+reference_backend = "gn"
+warmup = 3
+repeat = 10
+seed = 20260420
+tol = 1.0e-6

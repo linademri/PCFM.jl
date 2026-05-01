@@ -1,0 +1,13 @@
+name = "stress"
+outdir = "results/stress"
+benchmarks = ["projection_deep"]
+
+nx = 128
+nt = 128
+batches = [256, 512, 1024]
+constraint = "energy"
+backends = ["gn", "madnlp_gpu"]
+warmup = 2
+repeat = 5
+seed = 20260420
+tol = 1.0e-6

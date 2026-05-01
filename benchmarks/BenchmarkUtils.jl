@@ -1,0 +1,265 @@
+module BenchmarkUtils
+
+using Dates
+using LinearAlgebra
+using Printf
+using Random
+using Statistics
+using TOML
+
+import PCFM
+
+export parse_int_list, parse_symbol_list, env_int, env_float, env_string
+export make_constraint, make_solver
+export violation_stats, distribution_metrics, append_csv_row
+export write_manifest, read_suite, run_script_with_env
+
+parse_int_list(s::AbstractString) = parse.(Int, split(strip(s), ","))
+parse_symbol_list(s::AbstractString) = Symbol.(strip.(split(strip(s), ",")))
+env_int(name::AbstractString, default::Integer) = parse(Int, get(ENV, name, string(default)))
+env_float(name::AbstractString, default::Real) = parse(Float64, get(ENV, name, string(default)))
+env_string(name::AbstractString, default::AbstractString) = get(ENV, name, default)
+
+function make_constraint(kind::Symbol, nx::Int, nt::Int)
+    if kind === :linear_ic
+        x_grid = range(0, 2π, length = nx)
+        u0 = Float32.(sin.(x_grid .+ π / 4))
+        return PCFM.LinearICConstraint(u0, nx, nt)
+    elseif kind === :mass
+        return PCFM.MassConservationConstraint(0.0f0; nx = nx, nt = nt)
+    elseif kind === :energy
+        return PCFM.EnergyConservationConstraint(1.0f0; nx = nx, nt = nt)
+    else
+        error("Unknown constraint kind: $kind. Expected one of: linear_ic, mass, energy")
+    end
+end
+
+function make_solver(backend::Symbol)
+    if backend === :gn
+        return PCFM.BatchedGaussNewtonSolver(tol = 1e-7, max_iter = 25), :loaded
+    elseif backend === :madnlp
+        try
+            @eval using ExaModels, MadNLP
+            return PCFM.MadNLPSolver(tol = 1e-8, print_level = MadNLP.ERROR), :loaded
+        catch e
+            return nothing, e
+        end
+    elseif backend === :madnlp_gpu
+        try
+            @eval using ExaModels, MadNLP, MadNLPGPU, CUDA
+            return PCFM.MadNLPGPUSolver(tol = 1e-8), :loaded
+        catch e
+            return nothing, e
+        end
+    elseif backend === :optimjl
+        try
+            @eval using Optimization, OptimizationOptimJL
+            return PCFM.OptimizationJLSolver(tol = 1e-6), :loaded
+        catch e
+            return nothing, e
+        end
+    else
+        error("Unknown backend: $backend. Expected one of: gn, madnlp, madnlp_gpu, optimjl")
+    end
+end
+
+function _sample_violations(Z::AbstractArray{T, 4}, constraint) where {T}
+    nx, nt, _, nb = size(Z)
+    zflat = reshape(Z, nx * nt, nb)
+    vals = Vector{Float64}(undef, nb)
+    for i in 1:nb
+        zi = collect(zflat[:, i])
+        h = PCFM.residual(constraint, zi)
+        vals[i] = Float64(maximum(abs, h))
+    end
+    return vals
+end
+
+function violation_stats(Z::AbstractArray{T, 4}, constraint; tol::Real = 1e-6) where {T}
+    vals = _sample_violations(Z, constraint)
+    failed = count(>(tol), vals)
+    return Dict{String, Any}(
+        "mean_violation" => mean(vals),
+        "median_violation" => median(vals),
+        "p95_violation" => quantile(vals, 0.95),
+        "p99_violation" => quantile(vals, 0.99),
+        "max_violation" => maximum(vals),
+        "n_failed" => failed,
+        "failure_rate" => failed / length(vals),
+    )
+end
+
+function _flatten_samples(Z::AbstractArray{T, 4}) where {T}
+    nx, nt, _, nb = size(Z)
+    return Float64.(reshape(Array(Z), nx * nt, nb))
+end
+
+function _squared_distances(X::AbstractMatrix, Y::AbstractMatrix)
+    nx = vec(sum(abs2, X; dims = 1))
+    ny = vec(sum(abs2, Y; dims = 1))
+    D = nx .+ ny' .- 2 .* (X' * Y)
+    return max.(D, 0.0)
+end
+
+function _median_bandwidth(X::AbstractMatrix, Y::AbstractMatrix)
+    D = vec(_squared_distances(X, Y))
+    D = filter(isfinite, D)
+    D = D[D .> 0]
+    if isempty(D)
+        return 1.0
+    end
+    return sqrt(max(median(D), eps(Float64)))
+end
+
+function _mmd_rbf(X::AbstractMatrix, Y::AbstractMatrix; sigma::Union{Nothing, Float64} = nothing)
+    σ = sigma === nothing ? _median_bandwidth(X, Y) : sigma
+    γ = 1.0 / (2σ^2)
+    Kxx = exp.(-γ .* _squared_distances(X, X))
+    Kyy = exp.(-γ .* _squared_distances(Y, Y))
+    Kxy = exp.(-γ .* _squared_distances(X, Y))
+    n = size(X, 2)
+    m = size(Y, 2)
+    if n > 1
+        Kxx_sum = (sum(Kxx) - tr(Kxx)) / (n * (n - 1))
+    else
+        Kxx_sum = 0.0
+    end
+    if m > 1
+        Kyy_sum = (sum(Kyy) - tr(Kyy)) / (m * (m - 1))
+    else
+        Kyy_sum = 0.0
+    end
+    return Kxx_sum + Kyy_sum - 2 * mean(Kxy)
+end
+
+function _energy_distance(X::AbstractMatrix, Y::AbstractMatrix)
+    dxy = sqrt.(_squared_distances(X, Y))
+    dxx = sqrt.(_squared_distances(X, X))
+    dyy = sqrt.(_squared_distances(Y, Y))
+    return 2 * mean(dxy) - mean(dxx) - mean(dyy)
+end
+
+function _covariance(X::AbstractMatrix)
+    n = size(X, 2)
+    if n <= 1
+        return zeros(size(X, 1), size(X, 1))
+    end
+    Xc = X .- mean(X; dims = 2)
+    return (Xc * Xc') / (n - 1)
+end
+
+function _terminal_spectrum(terminal::AbstractVector)
+    n = length(terminal)
+    kmax = div(n, 2) + 1
+    coeff = zeros(Float64, kmax)
+    for k in 0:(kmax - 1)
+        re = 0.0
+        im = 0.0
+        for (j, x) in enumerate(terminal)
+            theta = -2π * k * (j - 1) / n
+            re += Float64(x) * cos(theta)
+            im += Float64(x) * sin(theta)
+        end
+        coeff[k + 1] = hypot(re, im)
+    end
+    return coeff
+end
+
+function _spectral_profile(X::AbstractMatrix, nx::Int, nt::Int)
+    nb = size(X, 2)
+    accum = zeros(Float64, div(nx, 2) + 1)
+    for j in 1:nb
+        U = reshape(X[:, j], nx, nt)
+        terminal = U[:, end]
+        accum .+= _terminal_spectrum(terminal)
+    end
+    return accum ./ nb
+end
+
+function distribution_metrics(Z::AbstractArray{T, 4}, Zref::AbstractArray{S, 4}) where {T, S}
+    X = _flatten_samples(Z)
+    Y = _flatten_samples(Zref)
+    nx, nt, _, _ = size(Z)
+    μx = vec(mean(X; dims = 2))
+    μy = vec(mean(Y; dims = 2))
+    Cx = _covariance(X)
+    Cy = _covariance(Y)
+    sx = _spectral_profile(X, nx, nt)
+    sy = _spectral_profile(Y, nx, nt)
+    return Dict{String, Any}(
+        "mmd_rbf" => _mmd_rbf(X, Y),
+        "energy_distance" => _energy_distance(X, Y),
+        "mean_l2" => norm(μx - μy),
+        "cov_frobenius" => norm(Cx - Cy),
+        "spectral_l2" => norm(sx - sy),
+    )
+end
+
+function _csv_escape(x)
+    s = string(x)
+    if occursin(',', s) || occursin('"', s) || occursin('\n', s)
+        return "\"" * replace(s, '"' => "\"\"") * "\""
+    end
+    return s
+end
+function append_csv_row(path::AbstractString, header::Vector{String}, row::AbstractDict)
+    mkpath(dirname(path) == "" ? "." : dirname(path))
+    needs_header = !isfile(path) || filesize(path) == 0
+    open(path, "a") do io
+        if needs_header
+            println(io, join(header, ","))
+        end
+        println(io, join((_csv_escape(get(row, h, "")) for h in header), ","))
+    end
+    return path
+end
+
+function _try_readchomp(cmd)
+    try
+        return readchomp(cmd)
+    catch
+        return "unknown"
+    end
+end
+
+function write_manifest(out_path::AbstractString; benchmark::AbstractString, config::AbstractDict = Dict{String, Any}())
+    manifest = Dict{String, Any}()
+    manifest["benchmark"] = benchmark
+    manifest["created_at_utc"] = string(now(UTC))
+    manifest["julia_version"] = string(VERSION)
+    manifest["pcfm_git_commit"] = _try_readchomp(`git rev-parse HEAD`)
+    manifest["pcfm_git_branch"] = _try_readchomp(`git rev-parse --abbrev-ref HEAD`)
+    manifest["hostname"] = gethostname()
+    manifest["cpu_threads"] = Threads.nthreads()
+    manifest["cpu_model"] = get(ENV, "CPU_MODEL", get(ENV, "HOSTTYPE", "unknown"))
+    manifest["slurm_job_id"] = get(ENV, "SLURM_JOB_ID", "")
+    manifest["slurm_partition"] = get(ENV, "SLURM_JOB_PARTITION", "")
+    manifest["cuda_visible_devices"] = get(ENV, "CUDA_VISIBLE_DEVICES", "")
+    manifest["config"] = Dict{String, Any}(config)
+    manifest["environment"] = Dict{String, String}(k => v for (k, v) in ENV if startswith(k, "PCFM_BENCH_") || startswith(k, "SLURM_"))
+    path = replace(out_path, r"\.csv$" => ".manifest.toml")
+    if path == out_path
+        path = out_path * ".manifest.toml"
+    end
+    mkpath(dirname(path) == "" ? "." : dirname(path))
+    open(path, "w") do io
+        TOML.print(io, manifest)
+    end
+    return path
+end
+
+
+function read_suite(path::AbstractString)
+    return TOML.parsefile(path)
+end
+
+function run_script_with_env(script::AbstractString, env::AbstractDict)
+    merged_env = Dict{String, String}(String(k) => String(v) for (k, v) in ENV)
+    for (k, v) in env
+        merged_env[string(k)] = string(v)
+    end
+    cmd = `$(Base.julia_cmd()) --project=. $script`
+    return run(setenv(cmd, merged_env))
+end
+
+end

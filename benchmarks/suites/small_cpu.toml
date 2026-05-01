@@ -1,0 +1,14 @@
+name = "small_cpu"
+outdir = "results/small_cpu"
+benchmarks = ["projection_deep", "sample_quality"]
+
+nx = 32
+nt = 32
+batches = [8, 16, 32, 64]
+constraint = "energy"
+backends = ["gn", "optimjl", "madnlp"]
+reference_backend = "gn"
+warmup = 2
+repeat = 5
+seed = 20260420
+tol = 1.0e-6
