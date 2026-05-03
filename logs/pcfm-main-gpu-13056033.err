@@ -1,0 +1,4462 @@
+Precompiling packages...
+ 102536.7 ms  ✓ CUDA (serial)
+  1 dependency successfully precompiled in 103 seconds
+Precompiling packages...
+   3663.6 ms  ✓ AtomixCUDAExt (serial)
+  1 dependency successfully precompiled in 4 seconds
+┌ Info: wrote manifest
+└   manifest_path = "results/main_gpu/projection_deep.manifest.toml"
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 32
+│   wall_time_s_mean = 0.016402756
+│   max_violation = 2.2888183592861822e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 64
+│   wall_time_s_mean = 0.0367113846
+│   max_violation = 4.5776367185723643e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 128
+│   wall_time_s_mean = 0.06306081859999998
+│   max_violation = 2.2888183592861822e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 256
+│   wall_time_s_mean = 0.1020618789
+│   max_violation = 3.051757812011502e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 512
+│   wall_time_s_mean = 0.2236616159
+│   max_violation = 5.340576172407907e-7
+└   failure_rate = 0.0
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Info: wrote results
+└   OUT_PATH = "results/main_gpu/projection_deep.csv"
+┌ Info: wrote manifest
+└   manifest_path = "results/main_gpu/sample_quality.manifest.toml"
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 32
+│   mmd = -0.024607273776790617
+└   max_violation = 2.2888183592861822e-7
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 64
+│   mmd = -0.012300163332065406
+└   max_violation = 4.5776367185723643e-7
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 128
+│   mmd = -0.006149885222200169
+└   max_violation = 2.2888183592861822e-7
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757813121725e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 256
+│   mmd = -0.0030740058424603145
+└   max_violation = 3.051757812011502e-7
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.8146972647368216e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 3.051757812011502e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 4.5776367185723643e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789065608624e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.5258789054506394e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.2888183592861822e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 512
+│   mmd = -0.0015370657026771983
+└   max_violation = 5.340576172407907e-7
+┌ Warning: Backend skipped
+│   backend = :madnlp_gpu
+│   exception = MadNLPGPUSolver requires MadNLPGPU. Run `using ExaModels, MadNLP, MadNLPGPU, CUDA` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Info: wrote results
+└   OUT_PATH = "results/main_gpu/sample_quality.csv"
+[2026-05-02T17:56:26.385] error: *** JOB 13056033 ON node4201 CANCELLED AT 2026-05-02T17:56:26 DUE to SIGNAL Terminated ***

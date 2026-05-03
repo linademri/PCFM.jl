@@ -21,7 +21,7 @@
 set -euo pipefail
 mkdir -p slurm_logs results
 
-module load julia/1.12.6 || module load julia/1.12.6
+module load julia/1.10.4 || module load julia/1.10.4
 
 export OPENBLAS_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export JULIA_NUM_THREADS=$SLURM_CPUS_PER_TASK
@@ -32,7 +32,7 @@ julia --project=. -e 'using Pkg; Pkg.instantiate()'
 
 # Sweep batch sizes on a smaller nx/nt to keep per-call times reasonable — this is a
 # structural diagnostic, not a scaling plot.
-export PCFM_BENCH_BATCHES="32,64,128,256"
+export PCFM_BENCH_BATCHES="64,128,256,512,1024"
 export PCFM_BENCH_NX=32
 export PCFM_BENCH_NT=32
 export PCFM_BENCH_CONSTRAINT=energy

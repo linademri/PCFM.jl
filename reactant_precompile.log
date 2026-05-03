@@ -1,0 +1,191 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+F0000 00:00:1777761991.998423 3022232 env.cc:93] Check failed: ret == 0 (11 vs. 0) Thread tf_XLAPjRtCpuClient creation via pthread_create() failed.
+*** Check failure stack trace: ***
+    @     0x7f07f01f54e4  absl::lts_20250814::log_internal::LogMessage::SendToLog()
+    @     0x7f07f01f5466  absl::lts_20250814::log_internal::LogMessage::Flush()
+    @     0x7f07f00016c3  tsl::(anonymous namespace)::PThread::PThread()
+    @     0x7f07f0000697  tsl::(anonymous namespace)::PosixEnv::StartThread()
+    @     0x7f07f00141f6  Eigen::ThreadPoolTempl<>::ThreadPoolTempl()
+    @     0x7f07f0012e8d  tsl::thread::ThreadPool::ThreadPool()
+    @     0x7f07f0012f9b  tsl::thread::ThreadPool::ThreadPool()
+    @     0x7f07e5809163  xla::ThreadPoolAsyncWorkRunner::ThreadPoolAsyncWorkRunner()
+    @     0x7f07e5780de5  xla::PjRtCpuClient::PjRtCpuClient()
+    @     0x7f07e5780459  xla::GetPjRtCpuClient()
+    @     0x7f07e18480d5  MakeCPUClientInternal()
+    @     0x7f07e184862a  MakeCPUClient
+    @     0x7f07c325d0a7  (unknown)
+    @     0x7f0814b39604  jl_toplevel_eval_flex
+    @     0x7f0814b39a9a  jl_toplevel_eval_flex
+    @     0x7f0814b3aeac  ijl_toplevel_eval_in
+    @     0x7f08003ca332  japi1_include_string_80975.2
+    @     0x7f0814afdf8e  ijl_apply_generic
+    @     0x7f07ff60d461  japi1__include_80983.2
+    @     0x7f07ff7c22df  julia_include_46392.1
+    @     0x7f07ffbbc5cb  jfptr_include_46393.1
+    @     0x7f0814afdf8e  ijl_apply_generic
+    @     0x7f0814b0e549  jl_f__call_latest
+    @     0x7f07fde94696  (unknown)
+    @     0x7f07fde946d6  (unknown)
+    @     0x7f0814afdf8e  ijl_apply_generic
+    @     0x7f0814b1bdd5  do_call
+    @     0x7f0814b1b8c5  eval_value
+    @     0x7f0814b1c624  eval_body
+    @     0x7f0814b1d3fe  jl_interpret_toplevel_thunk
+    @     0x7f0814b392e5  jl_toplevel_eval_flex
+    @     0x7f0814b39976  jl_toplevel_eval_flex
+    @     0x7f0814b39a9a  jl_toplevel_eval_flex
+    @     0x7f0814b3aeac  ijl_toplevel_eval_in
+    @     0x7f08003ca332  japi1_include_string_80975.2
+    @     0x7f0814afdf8e  ijl_apply_generic
+    @     0x7f07ff60d461  japi1__include_80983.2
+    @     0x7f07ff588e1e  julia_include_package_for_output_81012.1
+    @     0x7f07ff26903b  jfptr_include_package_for_output_81013.1
+    @     0x7f0814afdf8e  ijl_apply_generic
+    @     0x7f0814b1bdd5  do_call
+    @     0x7f0814b1b8c5  eval_value
+    @     0x7f0814b1c624  eval_body
+    @     0x7f0814b1d3fe  jl_interpret_toplevel_thunk
+    @     0x7f0814b392e5  jl_toplevel_eval_flex
+    @     0x7f0814b39a9a  jl_toplevel_eval_flex
+    @     0x7f0814b3aeac  ijl_toplevel_eval_in
+    @     0x7f08003ca332  japi1_include_string_80975.2
+    @     0x7f07ffce4dd7  julia_exec_options_82590.2
+    @     0x7f07ff92727e  julia__start_82728.1
+    @     0x7f07ff9273b4  jfptr__start_82729.1
+    @     0x7f0814afdf8e  ijl_apply_generic
+    @     0x7f0814b68ec6  true_main
+    @     0x7f0814b6994f  jl_repl_entrypoint
+    @           0x401089  main
+
+[3022232] signal (6.-6): Aborted
+in expression starting at /home/demri186/.julia/packages/Reactant/puoGz/src/Precompile.jl:10
+gsignal at /lib64/libc.so.6 (unknown line)
+abort at /lib64/libc.so.6 (unknown line)
+_ZN4absl12lts_2025081412log_internal10LogMessage21FailWithoutStackTraceEv at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN4absl12lts_2025081412log_internal10LogMessage9SendToLogEv at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN4absl12lts_2025081412log_internal10LogMessage5FlushEv at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3tsl12_GLOBAL__N_17PThreadC2ERKNS_13ThreadOptionsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4absl12lts_2025081412AnyInvocableIFvvEEEb at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3tsl12_GLOBAL__N_18PosixEnv11StartThreadERKNS_13ThreadOptionsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4absl12lts_2025081412AnyInvocableIFvvEEE at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN5Eigen15ThreadPoolTemplIN3tsl6thread16EigenEnvironmentEEC2EibS3_ at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3tsl6thread10ThreadPoolC1EPNS_3EnvERKNS_13ThreadOptionsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibPN5Eigen9AllocatorE at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3tsl6thread10ThreadPoolC2EPNS_3EnvERKNS_13ThreadOptionsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3xla25ThreadPoolAsyncWorkRunnerC2EPN3tsl3EnvESt17basic_string_viewIcSt11char_traitsIcEEiRKNS1_13ThreadOptionsE at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3xla13PjRtCpuClientC1EiSt6vectorISt10unique_ptrINS_13PjRtCpuDeviceESt14default_deleteIS3_EESaIS6_EESt10shared_ptrINS_15CpuDeviceMemory9AllocatorEES9_INS_3cpu14CpuCollectivesEEmbSt8functionIFvRNS_15HloModuleConfigEEEiS2_INS_22CpuTopologyDescriptionES4_ISL_EE at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_ZN3xla16GetPjRtCpuClientENS_16CpuClientOptionsE at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+_Z21MakeCPUClientInternalhiSt8optionalISt10shared_ptrIN3xla3cpu14CpuCollectivesEEE at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+MakeCPUClient at /home/demri186/.julia/artifacts/09f0c20ab8d27d5dd6aac98e8613db42a7c40a27/lib/libReactantExtra.so (unknown line)
+MakeCPUClient at /home/demri186/.julia/packages/Reactant/puoGz/src/mlir/libMLIR_h.jl:14257 [inlined]
+#make_pjrt_client#1 at /home/demri186/.julia/packages/Reactant/puoGz/src/accelerators/CPU.jl:21 [inlined]
+make_pjrt_client at /home/demri186/.julia/packages/Reactant/puoGz/src/accelerators/CPU.jl:7 [inlined]
+macro expansion at /home/demri186/.julia/packages/Reactant/puoGz/src/Precompile.jl:15 [inlined]
+macro expansion at /home/demri186/.julia/packages/PrecompileTools/L8A3n/src/workloads.jl:140 [inlined]
+top-level scope at /home/demri186/.julia/packages/Reactant/puoGz/src/Precompile.jl:11
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:925
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:877
+ijl_toplevel_eval_in at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:985
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+_include at ./loading.jl:2136
+include at ./Base.jl:495
+jfptr_include_46393.1 at /orcd/software/community/001/pkg/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+jl_f__call_latest at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/builtins.c:812
+include at /home/demri186/.julia/packages/Reactant/puoGz/src/Reactant.jl:1
+unknown function (ip: 0x7f07fde946d5)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+do_call at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:126
+eval_value at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:223
+eval_stmt_value at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:174 [inlined]
+eval_body at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:617
+jl_interpret_toplevel_thunk at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:775
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:934
+jl_eval_module_expr at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:215 [inlined]
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:736
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:877
+ijl_toplevel_eval_in at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:985
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+_include at ./loading.jl:2136
+include at ./Base.jl:495 [inlined]
+include_package_for_output at ./loading.jl:2222
+jfptr_include_package_for_output_81013.1 at /orcd/software/community/001/pkg/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+do_call at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:126
+eval_value at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:223
+eval_stmt_value at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:174 [inlined]
+eval_body at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:617
+jl_interpret_toplevel_thunk at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/interpreter.c:775
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:934
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:877
+ijl_toplevel_eval_in at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:985
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+include_string at ./loading.jl:2086 [inlined]
+exec_options at ./client.jl:316
+_start at ./client.jl:552
+jfptr__start_82729.1 at /orcd/software/community/001/pkg/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+true_main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:582
+jl_repl_entrypoint at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:731
+main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/cli/loader_exe.c:58
+__libc_start_main at /lib64/libc.so.6 (unknown line)
+unknown function (ip: 0x4010b8)
+Allocations: 21410542 (Pool: 21394266; Big: 16276); GC: 32
+ERROR: Failed to precompile Reactant [3c362404-f566-11ee-1572-e11a4b42c853] to "/home/demri186/.julia/compiled/v1.10/Reactant/jl_caj9y2".
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:35
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool)
+    @ Base ./loading.jl:2468
+  [3] compilecache
+    @ ./loading.jl:2340 [inlined]
+  [4] (::Base.var"#968#969"{Base.PkgId})()
+    @ Base ./loading.jl:1974
+  [5] mkpidlock(f::Base.var"#968#969"{Base.PkgId}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+    @ FileWatching.Pidfile /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:93
+  [6] #mkpidlock#6
+    @ /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:88 [inlined]
+  [7] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+    @ FileWatching.Pidfile /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:111
+  [8] #invokelatest#2
+    @ ./essentials.jl:894 [inlined]
+  [9] invokelatest
+    @ ./essentials.jl:889 [inlined]
+ [10] maybe_cachefile_lock(f::Base.var"#968#969"{Base.PkgId}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+    @ Base ./loading.jl:2983
+ [11] maybe_cachefile_lock
+    @ ./loading.jl:2980 [inlined]
+ [12] _require(pkg::Base.PkgId, env::String)
+    @ Base ./loading.jl:1970
+ [13] __require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:1812
+ [14] #invoke_in_world#3
+    @ ./essentials.jl:926 [inlined]
+ [15] invoke_in_world
+    @ ./essentials.jl:923 [inlined]
+ [16] _require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:1803
+ [17] macro expansion
+    @ ./loading.jl:1790 [inlined]
+ [18] macro expansion
+    @ ./lock.jl:267 [inlined]
+ [19] __require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:1753
+ [20] #invoke_in_world#3
+    @ ./essentials.jl:926 [inlined]
+ [21] invoke_in_world
+    @ ./essentials.jl:923 [inlined]
+ [22] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:1746

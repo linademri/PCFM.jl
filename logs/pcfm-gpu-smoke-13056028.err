@@ -1,0 +1,1173 @@
+Precompiling packages...
+    CUDA Being precompiled by another process (pid: 0, pidfile: /home/demri186/.julia/compiled/v1.12/CUDA/oWw5k_slr9s.ji.pidfile)
+ 112468.5 ms  ✓ CUDA (serial)
+  1 dependency successfully precompiled in 113 seconds
+Precompiling packages...
+    Reactant Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/Reactant/p9PzF_slr9s.ji.pidfile)
+    OptimizationOptimJL Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/OptimizationOptimJL/d3R9i_slr9s.ji.pidfile)
+  20876.7 ms  ✓ OptimizationOptimJL
+  91524.1 ms  ✓ Reactant
+    Reactant → ReactantStaticArraysExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantStaticArraysExt/2xrgN_slr9s.ji.pidfile)
+    Reactant → ReactantStatisticsExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantStatisticsExt/Z1GLk_slr9s.ji.pidfile)
+    Reactant → ReactantSparseArraysExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantSparseArraysExt/5Ok02_slr9s.ji.pidfile)
+    Reactant → ReactantKernelAbstractionsExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantKernelAbstractionsExt/uwupe_slr9s.ji.pidfile)
+    Reactant → ReactantFillArraysExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantFillArraysExt/NLWKR_slr9s.ji.pidfile)
+    Reactant → ReactantLogExpFunctionsExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantLogExpFunctionsExt/AhrdC_slr9s.ji.pidfile)
+    Reactant → ReactantSpecialFunctionsExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantSpecialFunctionsExt/TW9on_slr9s.ji.pidfile)
+    Reactant → ReactantAbstractFFTsExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantAbstractFFTsExt/KKk9m_slr9s.ji.pidfile)
+    Reactant → ReactantArrayInterfaceExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantArrayInterfaceExt/8iMAd_slr9s.ji.pidfile)
+    Reactant → ReactantDatesExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantDatesExt/fOpVJ_slr9s.ji.pidfile)
+    LuxCore → ReactantExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantExt/xAlQS_slr9s.ji.pidfile)
+    Optimisers → OptimisersReactantExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/OptimisersReactantExt/rhjvv_slr9s.ji.pidfile)
+    MLDataDevices → ReactantExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantExt/w1wxA_slr9s.ji.pidfile)
+    WeightInitializers → ReactantExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantExt/5gmeC_slr9s.ji.pidfile)
+    LuxLib → ReactantExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantExt/kl1Rl_slr9s.ji.pidfile)
+    Lux → ReactantExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/ReactantExt/J542U_slr9s.ji.pidfile)
+  11634.2 ms  ✓ Reactant → ReactantStatisticsExt
+  11641.6 ms  ✓ Reactant → ReactantStaticArraysExt
+  24656.1 ms  ✓ Lux → ReactantExt
+  24676.2 ms  ✓ LuxLib → ReactantExt
+  24690.4 ms  ✓ WeightInitializers → ReactantExt
+  24698.8 ms  ✓ MLDataDevices → ReactantExt
+  24710.9 ms  ✓ Optimisers → OptimisersReactantExt
+  24719.7 ms  ✓ LuxCore → ReactantExt
+  24731.4 ms  ✓ Reactant → ReactantDatesExt
+  24739.7 ms  ✓ Reactant → ReactantArrayInterfaceExt
+  24747.8 ms  ✓ Reactant → ReactantAbstractFFTsExt
+  24756.2 ms  ✓ Reactant → ReactantSpecialFunctionsExt
+  24764.7 ms  ✓ Reactant → ReactantLogExpFunctionsExt
+  24773.5 ms  ✓ Reactant → ReactantFillArraysExt
+  24779.2 ms  ✓ Reactant → ReactantKernelAbstractionsExt
+  24788.0 ms  ✓ Reactant → ReactantSparseArraysExt
+    PCFM → PCFMOptimizationExt Being precompiled by another machine (hostname: node4201, pid: 2791178, pidfile: /home/demri186/.julia/compiled/v1.12/PCFMOptimizationExt/8Zfni_slr9s.ji.pidfile)
+  12187.4 ms  ✓ PCFM → PCFMOptimizationExt
+  19 dependencies successfully precompiled in 135 seconds. 331 already precompiled.
+Precompiling packages...
+Info Given GPUArraysExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:6
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ GPUArraysExt (serial)
+  0 dependencies successfully precompiled in 3 seconds
+
+┌ Error: Error during loading of extension GPUArraysExt of WeightInitializers, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    GPUArraysExt 
+│    
+│    Failed to precompile GPUArraysExt [d46355a1-b099-5f8f-b471-85d4a6fc4f8d] to "/home/demri186/.julia/compiled/v1.12/GPUArraysExt/jl_EiJYu7".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:6
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+Info Given GPUArraysExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+[0Kin expression starting at stdin:5
+[0KERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_krBPdJ".
+[0KStacktrace:
+[0K  [1] error(s::String)
+[0K    @ Base ./error.jl:44
+[0K  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+[0K    @ Base ./loading.jl:3315
+[0K  [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+[0K    @ Base ./loading.jl:2683
+[0K  [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+[0K  [5] #mkpidlock#7
+[0K    @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+[0K  [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+[0K  [7] #invokelatest_gr#232
+[0K    @ ./reflection.jl:1297 [inlined]
+[0K  [8] invokelatest_gr
+[0K    @ ./reflection.jl:1289 [inlined]
+[0K  [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+[0K    @ Base ./loading.jl:3886
+[0K [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+[0K    @ Base ./loading.jl:3883
+[0K [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2669
+[0K [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2495
+[0K [13] _require_prelocked(uuidkey::Base.PkgId)
+[0K    @ Base ./loading.jl:2489
+[0K [14] run_extension_callbacks(extid::Base.ExtensionId)
+[0K    @ Base ./loading.jl:1609
+[0K [15] run_extension_callbacks(pkgid::Base.PkgId)
+[0K    @ Base ./loading.jl:1646
+[0K [16] run_package_callbacks(modkey::Base.PkgId)
+[0K    @ Base ./loading.jl:1462
+[0K [17] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128, stalecheck::Bool; reasons::Dict{String, Int64}, DEPOT_PATH::Vector{String})
+[0K    @ Base ./loading.jl:2136
+[0K [18] _require_search_from_serialized
+[0K    @ ./loading.jl:2011 [inlined]
+[0K [19] __require_prelocked(pkg::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2629
+[0K [20] _require_prelocked(uuidkey::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2495
+[0K [21] macro expansion
+[0K    @ ./loading.jl:2423 [inlined]
+[0K [22] macro expansion
+[0K    @ ./lock.jl:376 [inlined]
+[0K [23] __require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2388
+[0K [24] require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2364
+[0K [25] top-level scope
+[0K    @ ~/.julia/packages/Lux/ZSmgp/ext/GPUArraysExt.jl:4
+[0K [26] include(mod::Module, _path::String)
+[0K    @ Base ./Base.jl:306
+[0K [27] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K    @ Base ./loading.jl:3028
+[0K [28] top-level scope
+[0K    @ stdin:5
+[0K [29] eval(m::Module, e::Any)
+[0K    @ Core ./boot.jl:489
+[0K [30] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K    @ Base ./loading.jl:2874
+[0K [31] include_string
+[0K    @ ./loading.jl:2884 [inlined]
+[0K [32] exec_options(opts::Base.JLOptions)
+[0K    @ Base ./client.jl:315
+[0K [33] _start()
+[0K    @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/Lux/ZSmgp/ext/GPUArraysExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ GPUArraysExt (serial)
+  0 dependencies successfully precompiled in 5 seconds
+
+┌ Error: Error during loading of extension GPUArraysExt of Lux, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    GPUArraysExt 
+│    
+│    Failed to precompile GPUArraysExt [027ed672-b986-5df3-8c0f-72687092ffd9] to "/home/demri186/.julia/compiled/v1.12/GPUArraysExt/jl_KKoVdk".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+│    in expression starting at stdin:5
+│    ERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_krBPdJ".
+│    Stacktrace:
+│      [1] error(s::String)
+│        @ Base ./error.jl:44
+│      [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+│        @ Base ./loading.jl:3315
+│      [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+│        @ Base ./loading.jl:2683
+│      [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+│      [5] #mkpidlock#7
+│        @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+│      [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+│      [7] #invokelatest_gr#232
+│        @ ./reflection.jl:1297 [inlined]
+│      [8] invokelatest_gr
+│        @ ./reflection.jl:1289 [inlined]
+│      [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+│        @ Base ./loading.jl:3886
+│     [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+│        @ Base ./loading.jl:3883
+│     [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2669
+│     [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2495
+│     [13] _require_prelocked(uuidkey::Base.PkgId)
+│        @ Base ./loading.jl:2489
+│     [14] run_extension_callbacks(extid::Base.ExtensionId)
+│        @ Base ./loading.jl:1609
+│     [15] run_extension_callbacks(pkgid::Base.PkgId)
+│        @ Base ./loading.jl:1646
+│     [16] run_package_callbacks(modkey::Base.PkgId)
+│        @ Base ./loading.jl:1462
+│     [17] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128, stalecheck::Bool; reasons::Dict{String, Int64}, DEPOT_PATH::Vector{String})
+│        @ Base ./loading.jl:2136
+│     [18] _require_search_from_serialized
+│        @ ./loading.jl:2011 [inlined]
+│     [19] __require_prelocked(pkg::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2629
+│     [20] _require_prelocked(uuidkey::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2495
+│     [21] macro expansion
+│        @ ./loading.jl:2423 [inlined]
+│     [22] macro expansion
+│        @ ./lock.jl:376 [inlined]
+│     [23] __require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2388
+│     [24] require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2364
+│     [25] top-level scope
+│        @ ~/.julia/packages/Lux/ZSmgp/ext/GPUArraysExt.jl:4
+│     [26] include(mod::Module, _path::String)
+│        @ Base ./Base.jl:306
+│     [27] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│        @ Base ./loading.jl:3028
+│     [28] top-level scope
+│        @ stdin:5
+│     [29] eval(m::Module, e::Any)
+│        @ Core ./boot.jl:489
+│     [30] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│        @ Base ./loading.jl:2874
+│     [31] include_string
+│        @ ./loading.jl:2884 [inlined]
+│     [32] exec_options(opts::Base.JLOptions)
+│        @ Base ./client.jl:315
+│     [33] _start()
+│        @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/Lux/ZSmgp/ext/GPUArraysExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+Info Given GPUArraysSparseArraysExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ GPUArraysSparseArraysExt (serial)
+  0 dependencies successfully precompiled in 2 seconds
+
+┌ Error: Error during loading of extension GPUArraysSparseArraysExt of MLDataDevices, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    GPUArraysSparseArraysExt 
+│    
+│    Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_bI0Yfh".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+   4609.6 ms  ✓ ReactantRandom123Ext (serial)
+  1 dependency successfully precompiled in 5 seconds
+Precompiling packages...
+   2164.2 ms  ✓ SpecialFunctionsExt (serial)
+  1 dependency successfully precompiled in 2 seconds
+Precompiling packages...
+   2159.9 ms  ✓ ChainRulesCoreExt (serial)
+  1 dependency successfully precompiled in 2 seconds. 39 already precompiled.
+Precompiling packages...
+   2202.0 ms  ✓ EnzymeCoreExt (serial)
+  1 dependency successfully precompiled in 2 seconds. 12 already precompiled.
+Precompiling packages...
+   2697.2 ms  ✓ EnzymeCoreExt (serial)
+  1 dependency successfully precompiled in 3 seconds. 12 already precompiled.
+Precompiling packages...
+   3657.0 ms  ✓ ArrayInterfaceCUDAExt (serial)
+  1 dependency successfully precompiled in 4 seconds
+Precompiling packages...
+   4336.2 ms  ✓ NNlibCUDAExt (serial)
+  1 dependency successfully precompiled in 4 seconds
+Precompiling packages...
+Info Given CUDAExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+[0Kin expression starting at stdin:5
+[0KERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_6E8HEz".
+[0KStacktrace:
+[0K  [1] error(s::String)
+[0K    @ Base ./error.jl:44
+[0K  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+[0K    @ Base ./loading.jl:3315
+[0K  [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+[0K    @ Base ./loading.jl:2683
+[0K  [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+[0K  [5] #mkpidlock#7
+[0K    @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+[0K  [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+[0K  [7] #invokelatest_gr#232
+[0K    @ ./reflection.jl:1297 [inlined]
+[0K  [8] invokelatest_gr
+[0K    @ ./reflection.jl:1289 [inlined]
+[0K  [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+[0K    @ Base ./loading.jl:3886
+[0K [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+[0K    @ Base ./loading.jl:3883
+[0K [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2669
+[0K [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2495
+[0K [13] _require_prelocked(uuidkey::Base.PkgId)
+[0K    @ Base ./loading.jl:2489
+[0K [14] run_extension_callbacks(extid::Base.ExtensionId)
+[0K    @ Base ./loading.jl:1609
+[0K [15] run_extension_callbacks(pkgid::Base.PkgId)
+[0K    @ Base ./loading.jl:1646
+[0K [16] run_package_callbacks(modkey::Base.PkgId)
+[0K    @ Base ./loading.jl:1462
+[0K [17] _require_prelocked(uuidkey::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2503
+[0K [18] macro expansion
+[0K    @ ./loading.jl:2423 [inlined]
+[0K [19] macro expansion
+[0K    @ ./lock.jl:376 [inlined]
+[0K [20] __require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2388
+[0K [21] require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2364
+[0K [22] top-level scope
+[0K    @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/CUDAExt.jl:5
+[0K [23] include(mod::Module, _path::String)
+[0K    @ Base ./Base.jl:306
+[0K [24] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K    @ Base ./loading.jl:3028
+[0K [25] top-level scope
+[0K    @ stdin:5
+[0K [26] eval(m::Module, e::Any)
+[0K    @ Core ./boot.jl:489
+[0K [27] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K    @ Base ./loading.jl:2874
+[0K [28] include_string
+[0K    @ ./loading.jl:2884 [inlined]
+[0K [29] exec_options(opts::Base.JLOptions)
+[0K    @ Base ./client.jl:315
+[0K [30] _start()
+[0K    @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/CUDAExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ CUDAExt (serial)
+  0 dependencies successfully precompiled in 6 seconds
+
+┌ Error: Error during loading of extension CUDAExt of MLDataDevices, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    CUDAExt 
+│    
+│    Failed to precompile CUDAExt [9e0aca61-9665-56cf-9642-d947ef6fc392] to "/home/demri186/.julia/compiled/v1.12/CUDAExt/jl_4e2Xp7".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+│    in expression starting at stdin:5
+│    ERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_6E8HEz".
+│    Stacktrace:
+│      [1] error(s::String)
+│        @ Base ./error.jl:44
+│      [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+│        @ Base ./loading.jl:3315
+│      [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+│        @ Base ./loading.jl:2683
+│      [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+│      [5] #mkpidlock#7
+│        @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+│      [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+│      [7] #invokelatest_gr#232
+│        @ ./reflection.jl:1297 [inlined]
+│      [8] invokelatest_gr
+│        @ ./reflection.jl:1289 [inlined]
+│      [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+│        @ Base ./loading.jl:3886
+│     [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+│        @ Base ./loading.jl:3883
+│     [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2669
+│     [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2495
+│     [13] _require_prelocked(uuidkey::Base.PkgId)
+│        @ Base ./loading.jl:2489
+│     [14] run_extension_callbacks(extid::Base.ExtensionId)
+│        @ Base ./loading.jl:1609
+│     [15] run_extension_callbacks(pkgid::Base.PkgId)
+│        @ Base ./loading.jl:1646
+│     [16] run_package_callbacks(modkey::Base.PkgId)
+│        @ Base ./loading.jl:1462
+│     [17] _require_prelocked(uuidkey::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2503
+│     [18] macro expansion
+│        @ ./loading.jl:2423 [inlined]
+│     [19] macro expansion
+│        @ ./lock.jl:376 [inlined]
+│     [20] __require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2388
+│     [21] require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2364
+│     [22] top-level scope
+│        @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/CUDAExt.jl:5
+│     [23] include(mod::Module, _path::String)
+│        @ Base ./Base.jl:306
+│     [24] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│        @ Base ./loading.jl:3028
+│     [25] top-level scope
+│        @ stdin:5
+│     [26] eval(m::Module, e::Any)
+│        @ Core ./boot.jl:489
+│     [27] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│        @ Base ./loading.jl:2874
+│     [28] include_string
+│        @ ./loading.jl:2884 [inlined]
+│     [29] exec_options(opts::Base.JLOptions)
+│        @ Base ./client.jl:315
+│     [30] _start()
+│        @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/CUDAExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+Info Given CUDAExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+[0Kin expression starting at stdin:5
+[0KERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_CtL8jB".
+[0KStacktrace:
+[0K  [1] error(s::String)
+[0K    @ Base ./error.jl:44
+[0K  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+[0K    @ Base ./loading.jl:3315
+[0K  [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+[0K    @ Base ./loading.jl:2683
+[0K  [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+[0K  [5] #mkpidlock#7
+[0K    @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+[0K  [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+[0K  [7] #invokelatest_gr#232
+[0K    @ ./reflection.jl:1297 [inlined]
+[0K  [8] invokelatest_gr
+[0K    @ ./reflection.jl:1289 [inlined]
+[0K  [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+[0K    @ Base ./loading.jl:3886
+[0K [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+[0K    @ Base ./loading.jl:3883
+[0K [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2669
+[0K [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2495
+[0K [13] _require_prelocked(uuidkey::Base.PkgId)
+[0K    @ Base ./loading.jl:2489
+[0K [14] run_extension_callbacks(extid::Base.ExtensionId)
+[0K    @ Base ./loading.jl:1609
+[0K [15] run_extension_callbacks(pkgid::Base.PkgId)
+[0K    @ Base ./loading.jl:1646
+[0K [16] run_package_callbacks(modkey::Base.PkgId)
+[0K    @ Base ./loading.jl:1462
+[0K [17] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128, stalecheck::Bool; reasons::Dict{String, Int64}, DEPOT_PATH::Vector{String})
+[0K    @ Base ./loading.jl:2136
+[0K [18] _require_search_from_serialized
+[0K    @ ./loading.jl:2011 [inlined]
+[0K [19] __require_prelocked(pkg::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2629
+[0K [20] _require_prelocked(uuidkey::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2495
+[0K [21] macro expansion
+[0K    @ ./loading.jl:2423 [inlined]
+[0K [22] macro expansion
+[0K    @ ./lock.jl:376 [inlined]
+[0K [23] __require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2388
+[0K [24] require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2364
+[0K [25] top-level scope
+[0K    @ ~/.julia/packages/LuxLib/zPBrt/ext/CUDAExt/CUDAExt.jl:5
+[0K [26] include(mod::Module, _path::String)
+[0K    @ Base ./Base.jl:306
+[0K [27] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K    @ Base ./loading.jl:3028
+[0K [28] top-level scope
+[0K    @ stdin:5
+[0K [29] eval(m::Module, e::Any)
+[0K    @ Core ./boot.jl:489
+[0K [30] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K    @ Base ./loading.jl:2874
+[0K [31] include_string
+[0K    @ ./loading.jl:2884 [inlined]
+[0K [32] exec_options(opts::Base.JLOptions)
+[0K    @ Base ./client.jl:315
+[0K [33] _start()
+[0K    @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/LuxLib/zPBrt/ext/CUDAExt/CUDAExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ CUDAExt (serial)
+  0 dependencies successfully precompiled in 10 seconds
+
+┌ Error: Error during loading of extension CUDAExt of LuxLib, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    CUDAExt 
+│    
+│    Failed to precompile CUDAExt [8d20f71a-eaa5-5402-8cb1-1e6062ff668e] to "/home/demri186/.julia/compiled/v1.12/CUDAExt/jl_g9RK8D".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+│    in expression starting at stdin:5
+│    ERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_CtL8jB".
+│    Stacktrace:
+│      [1] error(s::String)
+│        @ Base ./error.jl:44
+│      [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+│        @ Base ./loading.jl:3315
+│      [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+│        @ Base ./loading.jl:2683
+│      [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+│      [5] #mkpidlock#7
+│        @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+│      [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+│      [7] #invokelatest_gr#232
+│        @ ./reflection.jl:1297 [inlined]
+│      [8] invokelatest_gr
+│        @ ./reflection.jl:1289 [inlined]
+│      [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+│        @ Base ./loading.jl:3886
+│     [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+│        @ Base ./loading.jl:3883
+│     [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2669
+│     [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2495
+│     [13] _require_prelocked(uuidkey::Base.PkgId)
+│        @ Base ./loading.jl:2489
+│     [14] run_extension_callbacks(extid::Base.ExtensionId)
+│        @ Base ./loading.jl:1609
+│     [15] run_extension_callbacks(pkgid::Base.PkgId)
+│        @ Base ./loading.jl:1646
+│     [16] run_package_callbacks(modkey::Base.PkgId)
+│        @ Base ./loading.jl:1462
+│     [17] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128, stalecheck::Bool; reasons::Dict{String, Int64}, DEPOT_PATH::Vector{String})
+│        @ Base ./loading.jl:2136
+│     [18] _require_search_from_serialized
+│        @ ./loading.jl:2011 [inlined]
+│     [19] __require_prelocked(pkg::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2629
+│     [20] _require_prelocked(uuidkey::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2495
+│     [21] macro expansion
+│        @ ./loading.jl:2423 [inlined]
+│     [22] macro expansion
+│        @ ./lock.jl:376 [inlined]
+│     [23] __require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2388
+│     [24] require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2364
+│     [25] top-level scope
+│        @ ~/.julia/packages/LuxLib/zPBrt/ext/CUDAExt/CUDAExt.jl:5
+│     [26] include(mod::Module, _path::String)
+│        @ Base ./Base.jl:306
+│     [27] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│        @ Base ./loading.jl:3028
+│     [28] top-level scope
+│        @ stdin:5
+│     [29] eval(m::Module, e::Any)
+│        @ Core ./boot.jl:489
+│     [30] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│        @ Base ./loading.jl:2874
+│     [31] include_string
+│        @ ./loading.jl:2884 [inlined]
+│     [32] exec_options(opts::Base.JLOptions)
+│        @ Base ./client.jl:315
+│     [33] _start()
+│        @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/LuxLib/zPBrt/ext/CUDAExt/CUDAExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+Info Given CUDAExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:6
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:1
+[0Kin expression starting at stdin:5
+[0KERROR: LoadError: Failed to precompile GPUArraysExt [d46355a1-b099-5f8f-b471-85d4a6fc4f8d] to "/home/demri186/.julia/compiled/v1.12/GPUArraysExt/jl_m28ObQ".
+[0KStacktrace:
+[0K  [1] error(s::String)
+[0K    @ Base ./error.jl:44
+[0K  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+[0K    @ Base ./loading.jl:3315
+[0K  [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+[0K    @ Base ./loading.jl:2683
+[0K  [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+[0K  [5] #mkpidlock#7
+[0K    @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+[0K  [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+[0K  [7] #invokelatest_gr#232
+[0K    @ ./reflection.jl:1297 [inlined]
+[0K  [8] invokelatest_gr
+[0K    @ ./reflection.jl:1289 [inlined]
+[0K  [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+[0K    @ Base ./loading.jl:3886
+[0K [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+[0K    @ Base ./loading.jl:3883
+[0K [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2669
+[0K [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2495
+[0K [13] _require_prelocked(uuidkey::Base.PkgId)
+[0K    @ Base ./loading.jl:2489
+[0K [14] run_extension_callbacks(extid::Base.ExtensionId)
+[0K    @ Base ./loading.jl:1609
+[0K [15] run_extension_callbacks(pkgid::Base.PkgId)
+[0K    @ Base ./loading.jl:1646
+[0K [16] run_package_callbacks(modkey::Base.PkgId)
+[0K    @ Base ./loading.jl:1462
+[0K [17] _require_prelocked(uuidkey::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2503
+[0K [18] macro expansion
+[0K    @ ./loading.jl:2423 [inlined]
+[0K [19] macro expansion
+[0K    @ ./lock.jl:376 [inlined]
+[0K [20] __require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2388
+[0K [21] require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2364
+[0K [22] top-level scope
+[0K    @ ~/.julia/packages/WeightInitializers/dRa8u/ext/CUDAExt.jl:4
+[0K [23] include(mod::Module, _path::String)
+[0K    @ Base ./Base.jl:306
+[0K [24] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K    @ Base ./loading.jl:3028
+[0K [25] top-level scope
+[0K    @ stdin:5
+[0K [26] eval(m::Module, e::Any)
+[0K    @ Core ./boot.jl:489
+[0K [27] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K    @ Base ./loading.jl:2874
+[0K [28] include_string
+[0K    @ ./loading.jl:2884 [inlined]
+[0K [29] exec_options(opts::Base.JLOptions)
+[0K    @ Base ./client.jl:315
+[0K [30] _start()
+[0K    @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/WeightInitializers/dRa8u/ext/CUDAExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ CUDAExt (serial)
+  0 dependencies successfully precompiled in 6 seconds
+
+┌ Error: Error during loading of extension CUDAExt of WeightInitializers, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    CUDAExt 
+│    
+│    Failed to precompile CUDAExt [0d0e9cde-cfc5-56bb-a277-295c1cc0b950] to "/home/demri186/.julia/compiled/v1.12/CUDAExt/jl_kwfMVK".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:6
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/WeightInitializers/dRa8u/ext/GPUArraysExt.jl:1
+│    in expression starting at stdin:5
+│    ERROR: LoadError: Failed to precompile GPUArraysExt [d46355a1-b099-5f8f-b471-85d4a6fc4f8d] to "/home/demri186/.julia/compiled/v1.12/GPUArraysExt/jl_m28ObQ".
+│    Stacktrace:
+│      [1] error(s::String)
+│        @ Base ./error.jl:44
+│      [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+│        @ Base ./loading.jl:3315
+│      [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+│        @ Base ./loading.jl:2683
+│      [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+│      [5] #mkpidlock#7
+│        @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+│      [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+│      [7] #invokelatest_gr#232
+│        @ ./reflection.jl:1297 [inlined]
+│      [8] invokelatest_gr
+│        @ ./reflection.jl:1289 [inlined]
+│      [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+│        @ Base ./loading.jl:3886
+│     [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+│        @ Base ./loading.jl:3883
+│     [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2669
+│     [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2495
+│     [13] _require_prelocked(uuidkey::Base.PkgId)
+│        @ Base ./loading.jl:2489
+│     [14] run_extension_callbacks(extid::Base.ExtensionId)
+│        @ Base ./loading.jl:1609
+│     [15] run_extension_callbacks(pkgid::Base.PkgId)
+│        @ Base ./loading.jl:1646
+│     [16] run_package_callbacks(modkey::Base.PkgId)
+│        @ Base ./loading.jl:1462
+│     [17] _require_prelocked(uuidkey::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2503
+│     [18] macro expansion
+│        @ ./loading.jl:2423 [inlined]
+│     [19] macro expansion
+│        @ ./lock.jl:376 [inlined]
+│     [20] __require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2388
+│     [21] require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2364
+│     [22] top-level scope
+│        @ ~/.julia/packages/WeightInitializers/dRa8u/ext/CUDAExt.jl:4
+│     [23] include(mod::Module, _path::String)
+│        @ Base ./Base.jl:306
+│     [24] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│        @ Base ./loading.jl:3028
+│     [25] top-level scope
+│        @ stdin:5
+│     [26] eval(m::Module, e::Any)
+│        @ Core ./boot.jl:489
+│     [27] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│        @ Base ./loading.jl:2874
+│     [28] include_string
+│        @ ./loading.jl:2884 [inlined]
+│     [29] exec_options(opts::Base.JLOptions)
+│        @ Base ./client.jl:315
+│     [30] _start()
+│        @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/WeightInitializers/dRa8u/ext/CUDAExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+Info Given CUDAForwardDiffExt was explicitly requested, output will be shown live [0K
+[0KERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+[0KStacktrace:
+[0K [1] top-level scope
+[0K   @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+[0K [2] include(mod::Module, _path::String)
+[0K   @ Base ./Base.jl:306
+[0K [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+[0K   @ Base ./loading.jl:3028
+[0K [4] top-level scope
+[0K   @ stdin:5
+[0K [5] eval(m::Module, e::Any)
+[0K   @ Core ./boot.jl:489
+[0K [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K   @ Base ./loading.jl:2874
+[0K [7] include_string
+[0K   @ ./loading.jl:2884 [inlined]
+[0K [8] exec_options(opts::Base.JLOptions)
+[0K   @ Base ./client.jl:315
+[0K [9] _start()
+[0K   @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+[0Kin expression starting at stdin:5
+[0KERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_ci79uD".
+[0KStacktrace:
+[0K  [1] error(s::String)
+[0K    @ Base ./error.jl:44
+[0K  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+[0K    @ Base ./loading.jl:3315
+[0K  [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+[0K    @ Base ./loading.jl:2683
+[0K  [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+[0K  [5] #mkpidlock#7
+[0K    @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+[0K  [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+[0K    @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+[0K  [7] #invokelatest_gr#232
+[0K    @ ./reflection.jl:1297 [inlined]
+[0K  [8] invokelatest_gr
+[0K    @ ./reflection.jl:1289 [inlined]
+[0K  [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+[0K    @ Base ./loading.jl:3886
+[0K [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+[0K    @ Base ./loading.jl:3883
+[0K [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2669
+[0K [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+[0K    @ Base ./loading.jl:2495
+[0K [13] _require_prelocked(uuidkey::Base.PkgId)
+[0K    @ Base ./loading.jl:2489
+[0K [14] run_extension_callbacks(extid::Base.ExtensionId)
+[0K    @ Base ./loading.jl:1609
+[0K [15] run_extension_callbacks(pkgid::Base.PkgId)
+[0K    @ Base ./loading.jl:1646
+[0K [16] run_package_callbacks(modkey::Base.PkgId)
+[0K    @ Base ./loading.jl:1462
+[0K [17] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128, stalecheck::Bool; reasons::Dict{String, Int64}, DEPOT_PATH::Vector{String})
+[0K    @ Base ./loading.jl:2136
+[0K [18] _require_search_from_serialized
+[0K    @ ./loading.jl:2011 [inlined]
+[0K [19] __require_prelocked(pkg::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2629
+[0K [20] _require_prelocked(uuidkey::Base.PkgId, env::String)
+[0K    @ Base ./loading.jl:2495
+[0K [21] macro expansion
+[0K    @ ./loading.jl:2423 [inlined]
+[0K [22] macro expansion
+[0K    @ ./lock.jl:376 [inlined]
+[0K [23] __require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2388
+[0K [24] require(into::Module, mod::Symbol)
+[0K    @ Base ./loading.jl:2364
+[0K [25] top-level scope
+[0K    @ ~/.julia/packages/LuxLib/zPBrt/ext/CUDAForwardDiffExt.jl:5
+[0K [26] include(mod::Module, _path::String)
+[0K    @ Base ./Base.jl:306
+[0K [27] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+[0K    @ Base ./loading.jl:3028
+[0K [28] top-level scope
+[0K    @ stdin:5
+[0K [29] eval(m::Module, e::Any)
+[0K    @ Core ./boot.jl:489
+[0K [30] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+[0K    @ Base ./loading.jl:2874
+[0K [31] include_string
+[0K    @ ./loading.jl:2884 [inlined]
+[0K [32] exec_options(opts::Base.JLOptions)
+[0K    @ Base ./client.jl:315
+[0K [33] _start()
+[0K    @ Base ./client.jl:550
+[0Kin expression starting at /home/demri186/.julia/packages/LuxLib/zPBrt/ext/CUDAForwardDiffExt.jl:1
+[0Kin expression starting at stdin:5
+              ✗ CUDAForwardDiffExt (serial)
+  0 dependencies successfully precompiled in 7 seconds
+
+┌ Error: Error during loading of extension CUDAForwardDiffExt of LuxLib, use `Base.retry_load_extensions()` to retry.
+│   exception =
+│    1-element ExceptionStack:
+│    The following 1 direct dependency failed to precompile:
+│    
+│    CUDAForwardDiffExt 
+│    
+│    Failed to precompile CUDAForwardDiffExt [dc5d30e2-4f8d-51b2-b0ae-3c49f878e242] to "/home/demri186/.julia/compiled/v1.12/CUDAForwardDiffExt/jl_Sz1b9S".
+│    ERROR: LoadError: TypeError: in Type{...} expression, expected UnionAll, got Type{GPUArrays.RNG}
+│    Stacktrace:
+│     [1] top-level scope
+│       @ ~/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:11
+│     [2] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [3] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
+│       @ Base ./loading.jl:3028
+│     [4] top-level scope
+│       @ stdin:5
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│       @ Base ./loading.jl:2874
+│     [7] include_string
+│       @ ./loading.jl:2884 [inlined]
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:315
+│     [9] _start()
+│       @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/MLDataDevices/Gr7bh/ext/GPUArraysSparseArraysExt.jl:1
+│    in expression starting at stdin:5
+│    ERROR: LoadError: Failed to precompile GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb] to "/home/demri186/.julia/compiled/v1.12/GPUArraysSparseArraysExt/jl_ci79uD".
+│    Stacktrace:
+│      [1] error(s::String)
+│        @ Base ./error.jl:44
+│      [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Vector{Base.PkgId})
+│        @ Base ./loading.jl:3315
+│      [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
+│        @ Base ./loading.jl:2683
+│      [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
+│      [5] #mkpidlock#7
+│        @ /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
+│      [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
+│        @ FileWatching.Pidfile /orcd/software/core/001/pkg/julia/1.12.6/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
+│      [7] #invokelatest_gr#232
+│        @ ./reflection.jl:1297 [inlined]
+│      [8] invokelatest_gr
+│        @ ./reflection.jl:1289 [inlined]
+│      [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
+│        @ Base ./loading.jl:3886
+│     [10] maybe_cachefile_lock(f::Function, pkg::Base.PkgId, srcpath::String)
+│        @ Base ./loading.jl:3883
+│     [11] __require_prelocked(pkg::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2669
+│     [12] _require_prelocked(uuidkey::Base.PkgId, env::Nothing)
+│        @ Base ./loading.jl:2495
+│     [13] _require_prelocked(uuidkey::Base.PkgId)
+│        @ Base ./loading.jl:2489
+│     [14] run_extension_callbacks(extid::Base.ExtensionId)
+│        @ Base ./loading.jl:1609
+│     [15] run_extension_callbacks(pkgid::Base.PkgId)
+│        @ Base ./loading.jl:1646
+│     [16] run_package_callbacks(modkey::Base.PkgId)
+│        @ Base ./loading.jl:1462
+│     [17] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128, stalecheck::Bool; reasons::Dict{String, Int64}, DEPOT_PATH::Vector{String})
+│        @ Base ./loading.jl:2136
+│     [18] _require_search_from_serialized
+│        @ ./loading.jl:2011 [inlined]
+│     [19] __require_prelocked(pkg::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2629
+│     [20] _require_prelocked(uuidkey::Base.PkgId, env::String)
+│        @ Base ./loading.jl:2495
+│     [21] macro expansion
+│        @ ./loading.jl:2423 [inlined]
+│     [22] macro expansion
+│        @ ./lock.jl:376 [inlined]
+│     [23] __require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2388
+│     [24] require(into::Module, mod::Symbol)
+│        @ Base ./loading.jl:2364
+│     [25] top-level scope
+│        @ ~/.julia/packages/LuxLib/zPBrt/ext/CUDAForwardDiffExt.jl:5
+│     [26] include(mod::Module, _path::String)
+│        @ Base ./Base.jl:306
+│     [27] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
+│        @ Base ./loading.jl:3028
+│     [28] top-level scope
+│        @ stdin:5
+│     [29] eval(m::Module, e::Any)
+│        @ Core ./boot.jl:489
+│     [30] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+│        @ Base ./loading.jl:2874
+│     [31] include_string
+│        @ ./loading.jl:2884 [inlined]
+│     [32] exec_options(opts::Base.JLOptions)
+│        @ Base ./client.jl:315
+│     [33] _start()
+│        @ Base ./client.jl:550
+│    in expression starting at /home/demri186/.julia/packages/LuxLib/zPBrt/ext/CUDAForwardDiffExt.jl:1
+│    in expression starting at stdin:
+└ @ Base loading.jl:1619
+Precompiling packages...
+  41272.1 ms  ✓ ReactantCUDAExt (serial)
+  1 dependency successfully precompiled in 41 seconds
+Precompiling packages...
+   3815.4 ms  ✓ LinearOperatorsCUDAExt (serial)
+  1 dependency successfully precompiled in 4 seconds
+Precompiling packages...
+   3807.4 ms  ✓ ExaModelsCUDA (serial)
+  1 dependency successfully precompiled in 4 seconds
+ERROR: ArgumentError: Package MadNLPGPU not found in current path.
+- Run `import Pkg; Pkg.add("MadNLPGPU")` to install the MadNLPGPU package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2405 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:376 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2388
+ [4] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2364
+ [5] eval(m::Module, e::Any)
+   @ Core ./boot.jl:489
+ [6] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:283
+ [7] _start()
+   @ Base ./client.jl:550

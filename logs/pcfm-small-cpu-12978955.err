@@ -1,0 +1,471 @@
+┌ Info: wrote manifest
+└   manifest_path = "results/small_cpu/projection_deep.manifest.toml"
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 8
+│   wall_time_s_mean = 0.0003973974000000001
+│   max_violation = 2.980232238769531e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 16
+│   wall_time_s_mean = 0.0006398804
+│   max_violation = 1.1920928955078125e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 32
+│   wall_time_s_mean = 0.013402199
+│   max_violation = 1.1920928955078125e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 64
+│   wall_time_s_mean = 0.019973600799999998
+│   max_violation = 1.1920928955078125e-7
+└   failure_rate = 0.0
+┌ Info: projection_deep
+│   backend = :optimjl
+│   nb = 8
+│   wall_time_s_mean = 5.8224118106
+│   max_violation = 1.4185905456542969e-5
+└   failure_rate = 1.0
+┌ Info: projection_deep
+│   backend = :optimjl
+│   nb = 16
+│   wall_time_s_mean = 17.145308333
+│   max_violation = 1.6927719116210938e-5
+└   failure_rate = 1.0
+┌ Info: projection_deep
+│   backend = :optimjl
+│   nb = 32
+│   wall_time_s_mean = 23.686390583
+│   max_violation = 1.430511474609375e-5
+└   failure_rate = 1.0
+┌ Info: projection_deep
+│   backend = :optimjl
+│   nb = 64
+│   wall_time_s_mean = 46.959096781599996
+│   max_violation = 1.6868114471435547e-5
+└   failure_rate = 1.0
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Info: wrote results
+└   OUT_PATH = "results/small_cpu/projection_deep.csv"
+┌ Info: wrote manifest
+└   manifest_path = "results/small_cpu/sample_quality.manifest.toml"
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 8
+│   mmd = -0.09829324344008317
+└   max_violation = 2.980232238769531e-7
+┌ Info: sample_quality
+│   backend = :optimjl
+│   nb = 8
+│   mmd = -0.09902823210521472
+└   max_violation = 1.430511474609375e-5
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 16
+│   mmd = -0.049332171314290685
+└   max_violation = 1.1920928955078125e-7
+┌ Info: sample_quality
+│   backend = :optimjl
+│   nb = 16
+│   mmd = -0.049341789182454354
+└   max_violation = 1.4483928680419922e-5
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 32
+│   mmd = -0.02460763810649147
+└   max_violation = 1.1920928955078125e-7
+┌ Info: sample_quality
+│   backend = :optimjl
+│   nb = 32
+│   mmd = -0.024607639014025517
+└   max_violation = 1.4901161193847656e-5
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM /orcd/home/002/demri186/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 64
+│   mmd = -0.0123135161094865
+└   max_violation = 1.1920928955078125e-7
+┌ Info: sample_quality
+│   backend = :optimjl
+│   nb = 64
+│   mmd = -0.012313599080093773
+└   max_violation = 1.6629695892333984e-5
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = KeyError: key Base.PkgId(Base.UUID("2621e9c9-d1b9-4e0f-bd8f-19eab7140b1b"), "MadNLP") not found
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Info: wrote results
+└   OUT_PATH = "results/small_cpu/sample_quality.csv"
+ERROR: LoadError: ArgumentError: Package CSV [336ed68f-0bac-5ca0-87d4-7b16caf5d00b] is required but does not seem to be installed:
+ - Run `Pkg.instantiate()` to install all recorded dependencies.
+
+Stacktrace:
+ [1] __require_prelocked(pkg::Base.PkgId, env::String)
+   @ Base ./loading.jl:2617
+ [2] _require_prelocked(uuidkey::Base.PkgId, env::String)
+   @ Base ./loading.jl:2495
+ [3] macro expansion
+   @ ./loading.jl:2423 [inlined]
+ [4] macro expansion
+   @ ./lock.jl:376 [inlined]
+ [5] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2388
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2364
+ [7] include(mod::Module, _path::String)
+   @ Base ./Base.jl:306
+ [8] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:317
+ [9] _start()
+   @ Base ./client.jl:550
+in expression starting at /orcd/home/002/demri186/PCFM.jl/benchmarks/make_report.jl:8

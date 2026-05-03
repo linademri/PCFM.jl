@@ -30,22 +30,6 @@ end
 
 module BenchmarkUtils
 
-
-try
-
-    using CUDA
-
-    using MadNLPGPU
-
-catch err
-
-    @debug "CUDA/MadNLPGPU backend packages not loaded" exception=(err, catch_backtrace())
-
-end
-
-
-
-
 using Dates
 using LinearAlgebra
 using Printf

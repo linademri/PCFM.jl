@@ -1,0 +1,65 @@
+======================================================================
+PCFM GPU smoke test
+======================================================================
+Job ID: 13057724
+Node: node3207
+Started: Sat May  2 16:06:19 EDT 2026
+Repo: /home/demri186/PCFM.jl
+Commit: 8e8a6d6
+julia version 1.12.6
+
+nvidia-smi:
+Sat May  2 16:06:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:4A:00.0 Off |                    0 |
+| N/A   37C    P8             33W /  350W |       0MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+Checking CUDA...
+CUDA toolchain: 
+- runtime 13.2, artifact installation
+- driver 590.48.1 for 13.2
+- compiler 13.2
+
+CUDA libraries: 
+- cuBLAS: 13.3.0
+- cuSPARSE: 12.7.9
+- cuSOLVER: 12.1.0
+- cuFFT: 12.2.0
+- cuRAND: 10.4.2
+- CUPTI: 2026.1.0 (API 13.2.0)
+- NVML: 13.0.0+590.48.1
+
+Julia packages: 
+- CUDACore: 6.0.0
+- GPUArrays: 11.4.1
+- GPUCompiler: 1.9.1
+- KernelAbstractions: 0.9.41
+- CUDA_Driver_jll: 13.2.0+0
+- CUDA_Compiler_jll: 0.4.2+0
+- CUDA_Runtime_jll: 0.21.0+0
+
+Toolchain:
+- Julia: 1.12.6
+- LLVM: 18.1.7
+
+1 device:
+  0: NVIDIA L40S (sm_89, 44.391 GiB / 44.988 GiB available)
+CUDA OK
+
+Checking MadNLPGPU...

@@ -1,0 +1,11 @@
+PATH=/orcd/software/community/001/pkg/julia/1.10.4/bin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/demri186/.local/bin:/home/demri186/bin
+Julia path: /orcd/software/community/001/pkg/julia/1.10.4/bin/julia
+julia version 1.10.4
+======================================================================
+PCFM GPU smoke test
+======================================================================
+Job ID: 13073626
+Node: node3207
+Started: Sat May  2 19:28:55 EDT 2026
+Repo: /home/demri186/PCFM.jl
+Commit: 8e8a6d6

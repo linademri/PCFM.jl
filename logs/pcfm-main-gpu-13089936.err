@@ -1,0 +1,36 @@
+ERROR: KeyError: key "Enzyme" not found
+Stacktrace:
+  [1] getindex
+    @ ./dict.jl:498 [inlined]
+  [2] _insert_extension_triggers(parent::Base.PkgId, extensions::Dict{String, Any}, weakdeps::Dict{String, Any})
+    @ Base ./loading.jl:1276
+  [3] insert_extension_triggers(env::String, pkg::Base.PkgId)
+    @ Base ./loading.jl:1239
+  [4] insert_extension_triggers
+    @ ./loading.jl:1204 [inlined]
+  [5] _tryrequire_from_serialized(modkey::Base.PkgId, path::String, ocachepath::String, sourcepath::String, depmods::Vector{Any})
+    @ Base ./loading.jl:1486
+  [6] _require_search_from_serialized(pkg::Base.PkgId, sourcepath::String, build_id::UInt128)
+    @ Base ./loading.jl:1574
+  [7] _require(pkg::Base.PkgId, env::String)
+    @ Base ./loading.jl:1938
+  [8] __require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:1812
+  [9] #invoke_in_world#3
+    @ ./essentials.jl:926 [inlined]
+ [10] invoke_in_world
+    @ ./essentials.jl:923 [inlined]
+ [11] _require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:1803
+ [12] macro expansion
+    @ ./loading.jl:1790 [inlined]
+ [13] macro expansion
+    @ ./lock.jl:267 [inlined]
+ [14] __require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:1753
+ [15] #invoke_in_world#3
+    @ ./essentials.jl:926 [inlined]
+ [16] invoke_in_world
+    @ ./essentials.jl:923 [inlined]
+ [17] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:1746

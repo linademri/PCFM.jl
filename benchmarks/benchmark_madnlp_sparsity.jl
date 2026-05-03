@@ -49,7 +49,10 @@ function build_structured(Ẑ::Matrix{Float64}, kind::Symbol, nx::Int, nt::Int)
     n, Nb = size(Ẑ)
     c = ExaCore()
     z = variable(c, n, Nb; start = (Ẑ[i, j] for i = 1:n, j = 1:Nb))
-    objective(c, 0.5 * (z[i, j] - Ẑ[i, j])^2 for i = 1:n, j = 1:Nb)
+
+    obj_refs = [(i, j, Ẑ[i, j]) for i = 1:n, j = 1:Nb]
+    objective(c, 0.5 * (z[r[1], r[2]] - r[3])^2 for r in obj_refs)
+
     if kind === :energy
         E0 = 1.0
         dx = 1 / nx
@@ -81,8 +84,9 @@ function build_unstructured(Ẑ::Matrix{Float64}, kind::Symbol, nx::Int, nt::Int
     c = ExaCore()
     z = variable(c, N; start = (Ẑ[mod1(k, n), div(k - 1, n) + 1] for k = 1:N))
     # Objective is the same quadratic, over flattened indexing.
-    objective(c, 0.5 * (z[k] - Ẑ[mod1(k, n), div(k - 1, n) + 1])^2 for k = 1:N)
+    obj_refs = [(k, Ẑ[mod1(k, n), div(k - 1, n) + 1]) for k = 1:N]
 
+    objective(c, 0.5 * (z[r[1]] - r[2])^2 for r in obj_refs)
     # Per-sample constraint as a separate `constraint(...)` call per j. This defeats
     # ExaModels' SIMD abstraction because each call sees only one constraint expression
     # rather than a generator over j.
@@ -118,7 +122,7 @@ function solve_and_report(model, label::String)
         label = label,
         iterations = hasproperty(result, :iter) ? result.iter :
                      hasproperty(result, :iterations) ? result.iterations : -1,
-        total_time = hasproperty(result, :elapsed_time) ? result.elapsed_time : -1.0,
+        total_time = hasproperty(result, :counters) ? result.counters.total_time : -1.0,
         status = hasproperty(result, :status) ? string(result.status) : "UNKNOWN",
         objective = hasproperty(result, :objective) ? result.objective : NaN,
     )

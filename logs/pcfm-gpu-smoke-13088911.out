@@ -1,0 +1,62 @@
+PATH=/orcd/software/community/001/pkg/julia/1.10.4/bin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/demri186/.local/bin:/home/demri186/bin
+Julia path: /orcd/software/community/001/pkg/julia/1.10.4/bin/julia
+julia version 1.10.4
+
+nvidia-smi:
+Sat May  2 23:27:03 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:CA:00.0 Off |                    0 |
+| N/A   30C    P8             32W /  350W |       0MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+Checking CUDA...
+CUDA toolchain: 
+- runtime 13.2, artifact installation
+- driver 590.48.1 for 13.2
+- compiler 13.2, artifact installation
+
+CUDA libraries: 
+- CUBLAS: 13.4.0
+- CURAND: 10.4.2
+- CUFFT: 12.2.0
+- CUSOLVER: 12.2.0
+- CUSPARSE: 12.7.10
+- CUPTI: 2026.1.1 (API 13.2.1)
+- NVML: 13.0.0+590.48.1
+
+Julia packages: 
+- CUDA: 5.11.2
+- GPUArrays: 11.5.3
+- GPUCompiler: 1.9.1
+- KernelAbstractions: 0.9.41
+- CUDA_Driver_jll: 13.2.1+0
+- CUDA_Compiler_jll: 0.4.3+0
+- CUDA_Runtime_jll: 0.21.0+1
+
+Toolchain:
+- Julia: 1.10.4
+- LLVM: 15.0.7
+
+1 device:
+  0: NVIDIA L40S (sm_89, 44.391 GiB / 44.988 GiB available)
+CUDA OK
+
+Checking MadNLPGPU without loading PCFM...
+MadNLPGPU OK
+
+Finished: Sat May  2 23:28:51 EDT 2026

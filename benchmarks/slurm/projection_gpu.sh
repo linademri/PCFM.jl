@@ -27,7 +27,7 @@
 set -euo pipefail
 mkdir -p slurm_logs results
 
-module load julia/1.12.6 || module load julia/1.12.6
+module load julia/1.10.4 || module load julia/1.10.4
 module load cuda/12.2 || module load cuda || true    # Reactant brings its own CUDA via jll
 nvidia-smi   # log GPU for the run
 
@@ -43,7 +43,7 @@ export PCFM_BENCH_BATCHES="32,64,128,256,512,1024"
 export PCFM_BENCH_NX=100
 export PCFM_BENCH_NT=100
 export PCFM_BENCH_CONSTRAINT=energy
-export PCFM_BENCH_BACKENDS="gn"
+export PCFM_BENCH_BACKENDS="gn,madnlp,madnlp_gpu"
 export PCFM_BENCH_OUT="results/projection_gpu_${SLURM_JOB_ID}.csv"
 export PCFM_BENCH_REPEAT=10
 export PCFM_BENCH_WARMUP=3

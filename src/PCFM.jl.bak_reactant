@@ -4,20 +4,7 @@ using NeuralOperators
 using Lux
 using Random
 using Optimisers
-# Reactant is now a weakdep; reactant_device falls back to identity (CPU passthrough)
-reactant_device() = identity
-
-
-
-# Stub: PCFMReactantExt overrides this when Reactant is loaded.
-
-function _reactant_compile(args...; kwargs...)
-
-    error("Reactant compilation requires `using Reactant`. " *
-
-          "Either load Reactant or call sample_ffm/sample_pcfm with use_compiled=false.")
-
-end
+using Reactant       # used by the FFM model itself (model.jl, training.jl, sampling.jl)
 using ForwardDiff    # used by default `jacobian` fallback and BatchedGaussNewtonSolver
 
 # ---------------------------------------------------------------------------

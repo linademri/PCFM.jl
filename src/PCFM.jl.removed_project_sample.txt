@@ -1,0 +1,11 @@
+function project_sample!(
+    ::_OptimizationJLSolverImpl,
+    ::AbstractVector,
+    ::AbstractVector,
+    ::AbstractConstraint,
+)
+    error(
+        "OptimizationJLSolver backend is not available. " *
+        "Load it via `using Optimization, OptimizationOptimJL`."
+    )
+end

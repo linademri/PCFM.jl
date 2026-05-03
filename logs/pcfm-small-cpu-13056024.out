@@ -1,0 +1,11 @@
+Job ID: 13056024
+Node: node1625
+Started: Sat May  2 15:44:38 EDT 2026
+Commit: 8e8a6d6
+julia version 1.12.6
+Precompiling
+Checking imports
+Imports OK
+Running small CPU benchmark
+Generating report
+Finished: Sat May  2 16:04:18 EDT 2026

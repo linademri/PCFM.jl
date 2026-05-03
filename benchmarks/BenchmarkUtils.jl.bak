@@ -1,50 +1,4 @@
-
-
-try
-
-    using Optimization
-
-    using OptimizationOptimJL
-
-catch err
-
-    @debug "Optimization.jl backend packages not loaded" exception=(err, catch_backtrace())
-
-end
-
-
-
-try
-
-    using MadNLP
-
-    using ExaModels
-
-catch err
-
-    @debug "MadNLP/ExaModels backend packages not loaded" exception=(err, catch_backtrace())
-
-end
-
-
-
 module BenchmarkUtils
-
-
-try
-
-    using CUDA
-
-    using MadNLPGPU
-
-catch err
-
-    @debug "CUDA/MadNLPGPU backend packages not loaded" exception=(err, catch_backtrace())
-
-end
-
-
-
 
 using Dates
 using LinearAlgebra
@@ -85,18 +39,21 @@ function make_solver(backend::Symbol)
         return PCFM.BatchedGaussNewtonSolver(tol = 1e-7, max_iter = 25), :loaded
     elseif backend === :madnlp
         try
+            @eval using ExaModels, MadNLP
             return PCFM.MadNLPSolver(tol = 1e-8, print_level = MadNLP.ERROR), :loaded
         catch e
             return nothing, e
         end
     elseif backend === :madnlp_gpu
         try
+            @eval using ExaModels, MadNLP, MadNLPGPU, CUDA
             return PCFM.MadNLPGPUSolver(tol = 1e-8), :loaded
         catch e
             return nothing, e
         end
     elseif backend === :optimjl
         try
+            @eval using Optimization, OptimizationOptimJL
             return PCFM.OptimizationJLSolver(tol = 1e-6), :loaded
         catch e
             return nothing, e

@@ -31,6 +31,26 @@ compile_time_s (MadNLP build time; 0 for other backends), n_samples_satisfying.
 =#
 
 using PCFM
+
+using ExaModels
+
+using MadNLP
+
+using Optimization
+
+using OptimizationOptimJL
+
+try
+
+    @eval Main using MadNLPGPU, CUDA
+
+    global HAS_MADNLPGPU = true
+
+catch
+
+    global HAS_MADNLPGPU = false
+
+end
 using Random
 using LinearAlgebra
 using Statistics: mean, std
@@ -77,22 +97,22 @@ function make_solver(backend::Symbol)
         return BatchedGaussNewtonSolver(tol = 1e-7, max_iter = 25), :always_available
     elseif backend === :madnlp
         try
-            @eval using ExaModels, MadNLP
-            return MadNLPSolver(tol = 1e-8, print_level = MadNLP.ERROR), :loaded
+            # unused: loaded at top
+            return PCFM.MadNLPSolver(tol = 1e-8, print_level = MadNLP.ERROR), :loaded
         catch e
             return nothing, e
         end
     elseif backend === :madnlp_gpu
         try
-            @eval using ExaModels, MadNLP, MadNLPGPU, CUDA
-            return MadNLPGPUSolver(tol = 1e-8), :loaded
+            # unused: loaded at top
+            return PCFM.MadNLPGPUSolver(tol = 1e-8), :loaded
         catch e
             return nothing, e
         end
     elseif backend === :optimjl
         try
-            @eval using Optimization, OptimizationOptimJL
-            return OptimizationJLSolver(tol = 1e-6), :loaded
+            # unused: loaded at top
+            return PCFM.OptimizationJLSolver(tol = 1e-6), :loaded
         catch e
             return nothing, e
         end

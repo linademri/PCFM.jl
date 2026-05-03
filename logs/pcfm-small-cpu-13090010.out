@@ -1,0 +1,7 @@
+Job ID: 13090010
+Node: node1610
+Started: Sat May  2 23:42:33 EDT 2026
+Commit: 8e8a6d6
+julia version 1.10.4
+Skipping Pkg.precompile because it fails with Enzyme KeyError on this environment
+Checking imports

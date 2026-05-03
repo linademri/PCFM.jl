@@ -1,0 +1,1197 @@
+ERROR: Data Error : jl_szEZyPAPkt-download
+┌ Warning: Circular dependency detected. Precompilation will be skipped for:
+│   ExaModels [1037b233-b668-4ce9-9b63-f9f681f55dd2]
+│   RecursiveArrayToolsStatisticsExt [50282732-812c-594b-adfe-8a041f888e43]
+│   PreallocationTools [d236fae5-4411-538c-8e31-a6e3d9e00b46]
+│   SparseConnectivityTracerNaNMathExt [1196811c-ab8c-56f5-92ba-b57bfe034832]
+│   ChainRulesCoreExt [8ccf546c-b5ad-5491-b9b6-b62e2a4db961]
+│   GPUArraysSparseArraysExt [555d850b-e4ac-5d9d-bfa0-17bb432b4efb]
+│   SpecialFunctionsExt [1285c0f1-ff9f-5867-b66e-0f359bcf09ba]
+│   SciMLOperatorsStaticArraysCoreExt [a2df0a61-553a-563b-aed7-0ce21874eb58]
+│   CUDSS [45b445bb-4962-46a0-9369-b4df9d0f772e]
+│   SciMLBase [0bca4576-84f4-4d90-8ffe-ffa030f20462]
+│   GPUArrays [0c68f7d7-f131-5f86-a1c3-88cf8149b2d7]
+│   KernelAbstractions [63c18a36-062a-441e-b654-da1e3ab1ce7c]
+│   EnzymeExt [581baccc-15ba-5e95-98da-6f157893efaf]
+│   ExaModelsCUDA [fda2f3cd-ab78-5567-b392-b68235305545]
+│   MLUtilsExt [5e1fd73c-d1df-5b04-a844-08cc9c579aab]
+│   SparseMatrixColoringsCUDAExt [4e75eb78-b06e-5e0a-a341-6fea9c73d77e]
+│   RecursiveArrayToolsSparseArraysExt [73e54eaf-3344-511d-b088-1ac5413eca63]
+│   PCFM [b98adb87-64f5-4b9d-af11-955a214774b3]
+│   Optimization [7f7a1694-90dd-40f0-9382-eb1efda571ba]
+│   ReactantStaticArraysExt [2fb56862-2b4e-5c07-bf9d-232c8aadbb62]
+│   ExaModelsKernelAbstractions [4bc0b9db-ee49-5d7e-bccf-444e98616493]
+│   OptimizationBase [bca83a33-5cc9-4baa-983d-23429ab6bcbb]
+│   CUDAExt [9e0aca61-9665-56cf-9642-d947ef6fc392]
+│   ReactantStatisticsExt [963ed91e-491b-54ce-bb4b-249dcb1ed2bb]
+│   ArrayInterfaceCUDAExt [f78586ac-ba87-5ec7-b3a5-84bc1b258ee3]
+│   RecursiveArrayToolsKernelAbstractionsExt [a2c70ebf-ea5c-585a-934a-212dbeaca23f]
+│   ReactantExt [3c0e3a12-cee5-53ab-a090-2a161bd685e8]
+│   RecursiveArrayToolsExt [32999b6b-3d33-5bcb-8d6d-c18e13101d60]
+│   EnzymeExt [e313a9a4-0723-5d2b-a457-c2fc3b4602bb]
+│   PreallocationToolsForwardDiffExt [34a8f204-0c2c-5664-bafb-c14baecaa342]
+│   LinearOperatorsCUDAExt [54ba8605-469e-5680-a54a-585c2e64e6c1]
+│   SolverCoreNLPModelsExt [3535b337-c298-5a77-b13d-f2d6de922354]
+│   ForwardDiffExt [c91426f4-7861-5196-9c44-7b937c24c440]
+│   OptimizationMLUtilsExt [deb79515-afbc-5f9b-9767-ac4a9f23da51]
+│   RecursiveArrayToolsTablesExt [d7e6196c-66fc-58ad-a3da-7870e8770d21]
+│   MLUtilsExt [447e3217-c189-5fc4-9e2b-3bc546fe18f7]
+│   Optim [429524aa-4258-5aef-a3af-852621145aeb]
+│   CUDAExt [0d0e9cde-cfc5-56bb-a277-295c1cc0b950]
+│   LinearOperatorsChainRulesCoreExt [07d16893-b6d8-5a66-bab6-ac743fe9560f]
+│   NNlibEnzymeCoreExt [c8a29c40-e0ac-5e6e-8984-8da3115ac879]
+│   DifferentiationInterfaceStaticArraysExt [a583ad16-7f3e-50a1-a3ab-8640d85ec5ce]
+│   DifferentiationInterfaceGPUArraysCoreExt [84466896-9be0-59d9-a6c0-1e4e2a5f5925]
+│   NNlibSpecialFunctionsExt [ca12507f-4cf6-5922-b1f9-e0da61ef4aa8]
+│   SciMLBaseMLStyleExt [54891929-e0db-55d3-b096-c0f3ec60df6b]
+│   DifferentiationInterfaceFiniteDiffExt [6044458a-139e-583a-bc2f-a730a9b54282]
+│   ReactantRandom123Ext [643884ab-edc4-574a-860b-c21b3ad138f8]
+│   ReactantCUDAExt [91356394-6239-50cb-9e6b-6f1f3f798cde]
+│   OptimizationOptimJL [36348300-93cb-4f02-beb5-3c3902f8871e]
+│   NLSolversBase [d41bc354-129a-5804-8e4c-c37616107c6c]
+│   CUDAForwardDiffExt [dc5d30e2-4f8d-51b2-b0ae-3c49f878e242]
+│   ReactantNNlibExt [1cc43b4b-f40c-58cf-bf58-d175afebd789]
+│   ReactantSparseArraysExt [104e8c58-ad3d-5090-9bd6-dcbd44cb03eb]
+│   NLPModels [a4795742-8479-5a88-8948-cc11e1c8c1a6]
+│   CUDA [052768ef-5323-5732-b1bb-66c8b64840ba]
+│   ReactantKernelAbstractionsExt [3a10c02a-767b-5677-a49b-4e0c45c5f1b5]
+│   FiniteDiffSparseArraysExt [699899dd-2948-59d9-a4f6-ce210f3f1f61]
+│   SparseArraysExt [85068d23-b5fb-53f1-8204-05c2aba6942f]
+│   ExaModelsSpecialFunctions [011f2d53-aa4b-5b6d-9129-75d613df14f7]
+│   PreallocationToolsSparseConnectivityTracerExt [f3463b80-2822-5513-b06b-5bb94f50d0b8]
+│   OptimizationForwardDiffExt [04dc0061-c1f3-5338-88cf-aa3b7fdaee92]
+│   ReactantFillArraysExt [6099b7f4-532d-5c2c-be6a-c685da8b0d38]
+│   AtomixCUDAExt [13011619-4c7c-5ef0-948f-5fc81565cd05]
+│   DifferentiationInterfaceSparseMatrixColoringsExt [47c9d817-0958-518c-b746-b505a6e8df74]
+│   LinearAlgebraExt [66d79d19-2cc4-5b0b-ac7a-b340256d1ecd]
+│   OptimizationEnzymeExt [e28c882d-b2b6-57bc-98bc-be0cb41bafed]
+│   NNlibCUDAExt [8a688d86-d2bc-5ad3-8ed1-384f9f2c8cc5]
+│   ReactantExt [d8539241-2996-5a95-8c55-9a905a1c6358]
+│   EnzymeExt [6425d1ab-ad86-5f6e-82f1-f5118e0dc800]
+│   SparseArraysExt [d59e0577-78a2-56be-b22d-01c326f52333]
+│   ArrayInterfaceChainRulesCoreExt [eb83e881-a866-5cf1-975c-edd1d5b6a108]
+│   LuxLib [82251201-b29d-42c6-8e01-566dec8acb11]
+│   SciMLBaseChainRulesCoreExt [4676cac9-c8e0-5d6e-a4e0-e3351593cdf5]
+│   ArrayInterfaceCUDSSExt [669bfcf2-23e2-56a8-b2b3-54f5e1fa5f36]
+│   FiniteDiff [6a86dc24-6348-571c-b903-95158fe2bd41]
+│   ArrayInterfaceStaticArraysCoreExt [48797bb2-d098-51e0-906f-70266c2e01ac]
+│   ChainRulesCoreExt [eae2faf6-b232-58cb-a410-7764fda2830c]
+│   ReactantExt [3588f5de-f90e-5902-866f-0c3adf14859a]
+│   MadNLP [2621e9c9-9eb4-46b1-8089-e8c72242dfb6]
+│   NNlib [872c559c-99b0-510c-b3b7-b6c96a88d5cd]
+│   CUDAExt [8d20f71a-eaa5-5402-8cb1-1e6062ff668e]
+│   DifferentiationInterfaceChainRulesCoreExt [9dc9f1db-29b2-5863-acb4-b3b6c4880d6a]
+│   Lux [b2108857-7c20-44ae-9111-449ecde12c47]
+│   DifferentiationInterfaceSparseConnectivityTracerExt [d59d10b7-1dae-5777-89c3-d355480b0221]
+│   GPUArraysExt [d46355a1-b099-5f8f-b471-85d4a6fc4f8d]
+│   GPUArraysExt [027ed672-b986-5df3-8c0f-72687092ffd9]
+│   OptimizationMLDataDevicesExt [5a812cd5-4703-5b74-9a49-2e3836e27435]
+│   SparseConnectivityTracerNNlibExt [ccb82920-7ef2-52c3-b603-0dfb2f0ec831]
+│   OptimizationFiniteDiffExt [df06f67f-711b-5016-ba4f-4fd847ce32b7]
+│   EnzymeCoreExt [c3ed20f3-746d-5a71-99a7-df1cca8c2b90]
+│   NNlibForwardDiffExt [e8958739-db86-5f80-9e4c-f7c96aa15038]
+│   SciMLOperators [c0aeaf25-5076-4817-a8d5-81caf7dfa961]
+│   SymbolicIndexingInterfacePrettyTablesExt [876762bf-968e-5ca7-ba95-0cf65a4f10ea]
+│   SciMLBaseDifferentiationInterfaceExt [61c4812a-2cb6-58ab-bd42-a7cbe32d188a]
+│   RecursiveArrayTools [731186ca-8d62-57ce-b412-fbd966d074cd]
+│   LineSearches [d3d80556-e9d4-5f37-9878-2ab0fcc64255]
+│   SparseConnectivityTracerLogExpFunctionsExt [d814ad88-ab24-57e0-b8f0-09133e37aa20]
+│   SciMLStructures [53ae85a6-f571-4167-b2af-e1d143709226]
+│   ReactantSpecialFunctionsExt [5981d66b-43ae-5ef9-a655-fb5bed72485b]
+│   ChainRulesCoreExt [961e4994-6beb-54af-ba9d-95fe34ee2dbb]
+│   MadNLPGPU [d72a61cc-809d-412f-99be-fd81f4b8a598]
+│   SymbolicIndexingInterface [2efcf032-c050-4f8e-a9bb-153293bab1f5]
+│   SciMLBaseForwardDiffExt [53f9bee7-1433-5cb3-b0ab-2dd3fda1e9bd]
+│   LinearOperatorsLDLFactorizationsExt [48b2af54-f9a3-5783-839c-4ff93ad982a1]
+│   RecursiveArrayToolsForwardDiffExt [14203109-85fb-5f77-af23-1cb7d9032242]
+│   DifferentiationInterfaceEnzymeExt [55327dd7-aa92-56e5-a3d3-d077748ab7c0]
+│   SciMLBaseEnzymeExt [1f50db0a-af91-59e4-a072-6fe0735aace0]
+│   SciMLOperatorsSparseArraysExt [9985400b-97ec-5583-b534-4f70b643bcf7]
+│   ReactantArrayInterfaceExt [858f3708-8c41-5dc3-8029-b9e234615147]
+│   ReactantExt [01703160-0d21-5974-9196-3c5617d4357e]
+│   NeuralOperators [ea5c82af-86e5-48da-8ee1-382d6ad7af4b]
+│   DifferentiationInterfaceSparseArraysExt [b08b8115-38b0-5317-86de-b806e26a31fc]
+│   FiniteDiffStaticArraysExt [75e56524-3a34-51de-85ea-03aa6eac4b64]
+│   ReactantDatesExt [814d8374-7336-54dc-bbf2-82587c29c2ba]
+│   MLUtils [f1d291b0-491e-4a28-83b9-f70985020b54]
+└ @ Pkg.API /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/Pkg/src/API.jl:1239
+Precompiling project...
+  ✓ PositiveFactorizations
+  ✓ StatsAPI
+  ✓ InverseFunctions
+  ✓ CommonSolve
+  ✓ PrettyPrint
+  ✓ ArgCheck
+  ✓ ShowCases
+  ✓ Requires
+  ✓ CompositionsBase
+  ✓ PtrArrays
+  ✓ AbstractTrees
+  ✓ FunctionWrappers
+  ✓ ProgressMeter
+  ✓ InitialValues
+  ✓ FillArrays
+  ✓ DelimitedFiles
+  ✓ DefineSingletons
+  ✓ ExproniconLite
+  ✓ ProgressLogging
+  ✓ RuntimeGeneratedFunctions
+  ✓ ContextVariablesX
+  ✓ NameResolution
+  ✓ SimpleTraits
+  ✓ TruncatedStacktraces
+  ✓ SciMLLogging
+  ✓ LibTracyClient_jll
+  ✓ LogExpFunctions → LogExpFunctionsInverseFunctionsExt
+  ✓ Missings
+  ✓ AliasTables
+  ✓ CUDA_Runtime_Discovery
+  ✓ Baselet
+  ✓ PDMats
+  ✓ SplittablesBase
+  ✓ ConsoleProgressMonitor
+  ✓ MLDataDevices → FillArraysExt
+  ✓ FLoopsBase
+  ✓ L_BFGS_B_jll
+  ✓ LeftChildRightSiblingTrees
+  ✓ RecipesBase
+  ✓ LBFGSB
+  ✓ FunctionWrappersWrappers
+  ✓ Jieko
+  ✓ DataStructures
+  ✓ TerminalLoggers
+  ✓ DifferentiationInterface → DifferentiationInterfaceForwardDiffExt
+  ✓ MLCore
+  ✓ Tracy
+  ✓ FillArrays → FillArraysPDMatsExt
+  ✓ SortingAlgorithms
+  ✓ SciMLLogging → SciMLLoggingTracyExt
+  ✓ FillArrays → FillArraysStaticArraysExt
+  ✓ FunctionWrappersWrappers → FunctionWrappersWrappersEnzymeExt
+  ✓ FillArrays → FillArraysSparseArraysExt
+  ✓ FillArrays → FillArraysStatisticsExt
+  ✓ SparseMatrixColorings
+  ✓ StatsBase
+  ✓ PDMats → StatsBaseExt
+  ✓ SparseConnectivityTracer
+  ✓ Moshi
+  ✓ SparseConnectivityTracer → SparseConnectivityTracerSpecialFunctionsExt
+  ✓ SparseConnectivityTracer → SparseConnectivityTracerChainRulesCoreExt
+InverseFunctionsTestExt Waiting for background task / IO / timer.
+[pid 659265] waiting for IO to finish:
+ Handle type        uv_handle_t->data
+ fs_event           0x275a870->0x147af404ec80
+ timer              0x27ad870->0x147af404ecb0
+This means that a package has started a background task or event source that has not finished running. For precompilation to complete successfully, the event source needs to be closed explicitly. See the developer documentation on fixing precompilation hangs for more help.
+CompositionsBaseInverseFunctionsExt Waiting for background task / IO / timer.
+[pid 659292] waiting for IO to finish:
+ Handle type        uv_handle_t->data
+ fs_event           0x24b2950->0x1456589a1c60
+ timer              0x2448f40->0x1456589a1c90
+This means that a package has started a background task or event source that has not finished running. For precompilation to complete successfully, the event source needs to be closed explicitly. See the developer documentation on fixing precompilation hangs for more help.
+  ✓ MLStyle
+  ✓ JuliaVariables
+  ✓ InverseFunctions → InverseFunctionsTestExt
+  ✓ CompositionsBase → CompositionsBaseInverseFunctionsExt
+  ✓ InverseFunctions → InverseFunctionsDatesExt
+  ✓ Accessors
+  ✓ Accessors → LinearAlgebraExt
+  ✓ Accessors → TestExt
+  ✓ Accessors → StaticArraysExt
+  ✓ BangBang
+  ✓ BangBang → BangBangChainRulesCoreExt
+  ✓ BangBang → BangBangStaticArraysExt
+  ✓ BangBang → BangBangTablesExt
+  ✓ MicroCollections
+  ✓ Transducers
+  ✓ Transducers → TransducersAdaptExt
+  ✓ FLoops
+  78 dependencies successfully precompiled in 36 seconds. 164 already precompiled. 114 skipped due to circular dependency.
+  2 dependencies had output during precompilation:
+┌ CompositionsBase → CompositionsBaseInverseFunctionsExt
+│  [pid 659292] waiting for IO to finish:
+│   Handle type        uv_handle_t->data
+│   fs_event           0x24b2950->0x1456589a1c60
+│   timer              0x2448f40->0x1456589a1c90
+│  This means that a package has started a background task or event source that has not finished running. For precompilation to complete successfully, the event source needs to be closed explicitly. See the developer documentation on fixing precompilation hangs for more help.
+└  
+┌ InverseFunctions → InverseFunctionsTestExt
+│  [pid 659265] waiting for IO to finish:
+│   Handle type        uv_handle_t->data
+│   fs_event           0x275a870->0x147af404ec80
+│   timer              0x27ad870->0x147af404ecb0
+│  This means that a package has started a background task or event source that has not finished running. For precompilation to complete successfully, the event source needs to be closed explicitly. See the developer documentation on fixing precompilation hangs for more help.
+└  
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Info: wrote manifest
+└   manifest_path = "results/small_cpu/projection_deep.manifest.toml"
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 8
+│   wall_time_s_mean = 0.0004587582
+│   max_violation = 2.980232238769531e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 16
+│   wall_time_s_mean = 0.0012141012
+│   max_violation = 1.1920928955078125e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 32
+│   wall_time_s_mean = 0.0025086712
+│   max_violation = 1.1920928955078125e-7
+└   failure_rate = 0.0
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: projection_deep
+│   backend = :gn
+│   nb = 64
+│   wall_time_s_mean = 0.012964193399999999
+│   max_violation = 1.7881393432617188e-7
+└   failure_rate = 0.0
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_projection_deep.jl:68
+┌ Info: wrote results
+└   OUT_PATH = "results/small_cpu/projection_deep.csv"
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+┌ Info: wrote manifest
+└   manifest_path = "results/small_cpu/sample_quality.manifest.toml"
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 2.384185791015625e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 8
+│   mmd = -0.09853500539982352
+└   max_violation = 2.980232238769531e-7
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 16
+│   mmd = -0.0493314450171658
+└   max_violation = 1.1920928955078125e-7
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 32
+│   mmd = -0.024578266756801304
+└   max_violation = 1.1920928955078125e-7
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.1920928955078125e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Warning: BatchedGaussNewton did not converge
+│   final_residual = 1.7881393432617188e-7
+│   tol = 1.0e-7
+└ @ PCFM ~/PCFM.jl/src/projection.jl:174
+┌ Info: sample_quality
+│   backend = :gn
+│   nb = 64
+│   mmd = -0.012309895276399141
+└   max_violation = 1.7881393432617188e-7
+┌ Warning: Backend skipped
+│   backend = :optimjl
+│   exception = OptimizationJLSolver requires the Optimization.jl extension. Run `using Optimization, OptimizationOptimJL` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Warning: Backend skipped
+│   backend = :madnlp
+│   exception = MadNLPSolver requires the MadNLP + ExaModels extension. Run `using ExaModels, MadNLP` before constructing it.
+└ @ Main /orcd/home/002/demri186/PCFM.jl/benchmarks/benchmark_sample_quality.jl:59
+┌ Info: wrote results
+└   OUT_PATH = "results/small_cpu/sample_quality.csv"
+┌ Error: CUDA.jl could not find an appropriate CUDA runtime to use.
+│ 
+│ CUDA.jl's JLLs were precompiled without an NVIDIA driver present.
+│ This can happen when installing CUDA.jl on an HPC log-in node,
+│ or in a container. In that case, you need to specify which CUDA
+│ version to use at run time by calling `CUDA.set_runtime_version!`
+│ or provisioning the preference it sets at compile time.
+│ 
+│ If you are not running in a container or on an HPC log-in node,
+│ try re-compiling the CUDA runtime JLL and re-loading CUDA.jl:
+│      pkg = Base.PkgId(Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2"),
+│                       "CUDA_Runtime_jll")
+│      Base.compilecache(pkg)
+│      # re-start Julia and re-load CUDA.jl
+│ 
+│ For more details, refer to the CUDA.jl documentation at
+│ https://cuda.juliagpu.org/stable/installation/overview/
+└ @ CUDA ~/.julia/packages/CUDA/bjncr/src/initialization.jl:113
+ERROR: LoadError: ArgumentError: Package CSV [336ed68f-0bac-5ca0-87d4-7b16caf5d00b] is required but does not seem to be installed:
+ - Run `Pkg.instantiate()` to install all recorded dependencies.
+
+Stacktrace:
+  [1] _require(pkg::Base.PkgId, env::String)
+    @ Base ./loading.jl:1926
+  [2] __require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:1812
+  [3] #invoke_in_world#3
+    @ ./essentials.jl:926 [inlined]
+  [4] invoke_in_world
+    @ ./essentials.jl:923 [inlined]
+  [5] _require_prelocked(uuidkey::Base.PkgId, env::String)
+    @ Base ./loading.jl:1803
+  [6] macro expansion
+    @ ./loading.jl:1790 [inlined]
+  [7] macro expansion
+    @ ./lock.jl:267 [inlined]
+  [8] __require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:1753
+  [9] #invoke_in_world#3
+    @ ./essentials.jl:926 [inlined]
+ [10] invoke_in_world
+    @ ./essentials.jl:923 [inlined]
+ [11] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:1746
+in expression starting at /orcd/home/002/demri186/PCFM.jl/benchmarks/make_report.jl:8

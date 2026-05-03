@@ -4,20 +4,7 @@ using NeuralOperators
 using Lux
 using Random
 using Optimisers
-# Reactant is now a weakdep; reactant_device falls back to identity (CPU passthrough)
-reactant_device() = identity
-
-
-
-# Stub: PCFMReactantExt overrides this when Reactant is loaded.
-
-function _reactant_compile(args...; kwargs...)
-
-    error("Reactant compilation requires `using Reactant`. " *
-
-          "Either load Reactant or call sample_ffm/sample_pcfm with use_compiled=false.")
-
-end
+using Reactant       # used by the FFM model itself (model.jl, training.jl, sampling.jl)
 using ForwardDiff    # used by default `jacobian` fallback and BatchedGaussNewtonSolver
 
 # ---------------------------------------------------------------------------
@@ -81,6 +68,17 @@ end
 
 # Extension also adds a project_sample! method; a fallback here gives a cleaner error
 # if a user somehow obtains an `_OptimizationJLSolverImpl` without the extension loaded.
+function project_sample!(
+    ::_OptimizationJLSolverImpl,
+    ::AbstractVector,
+    ::AbstractVector,
+    ::AbstractConstraint,
+)
+    error(
+        "OptimizationJLSolver backend is not available. " *
+        "Load it via `using Optimization, OptimizationOptimJL`."
+    )
+end
 
 # ---------------------------------------------------------------------------
 # Stubs for MadNLP + ExaModels weakdep extensions. Same pattern as above: a

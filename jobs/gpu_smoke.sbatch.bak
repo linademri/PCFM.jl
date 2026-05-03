@@ -1,0 +1,62 @@
+#!/bin/bash
+#SBATCH --job-name=pcfm-gpu-smoke
+#SBATCH --partition=mit_normal_gpu
+#SBATCH --gres=gpu:1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=00:30:00
+#SBATCH --output=logs/pcfm-gpu-smoke-%j.out
+#SBATCH --error=logs/pcfm-gpu-smoke-%j.err
+
+set -euo pipefail
+
+cd "$SLURM_SUBMIT_DIR"
+JULIA="/orcd/software/community/001/pkg/julia/1.10.4/bin/julia"
+echo "PATH=$PATH"
+echo "Julia path: $(which julia)"
+"$JULIA" --version
+
+module purge || true
+
+export JULIA_NUM_THREADS="${SLURM_CPUS_PER_TASK}"
+export JULIA_PKG_PRECOMPILE_AUTO=0
+
+mkdir -p logs
+
+echo "======================================================================"
+echo "PCFM GPU smoke test"
+echo "======================================================================"
+echo "Job ID: $SLURM_JOB_ID"
+echo "Node: $(hostname)"
+echo "Started: $(date)"
+echo "Repo: $(pwd)"
+echo "Commit: $(git rev-parse --short HEAD || true)"
+"$JULIA" --version
+
+echo
+echo "nvidia-smi:"
+nvidia-smi
+
+echo
+echo "Checking CUDA..."
+"$JULIA" --project=. -e '
+using CUDA
+CUDA.versioninfo()
+@assert CUDA.functional()
+println("CUDA OK")
+'
+
+echo
+echo "Checking MadNLPGPU..."
+"$JULIA" --project=. -e '
+using PCFM
+using CUDA
+using MadNLP
+using ExaModels
+using MadNLPGPU
+println("MadNLPGPU OK")
+'
+
+echo
+echo "Finished: $(date)"

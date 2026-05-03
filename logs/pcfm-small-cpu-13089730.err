@@ -1,0 +1,16 @@
+ERROR: KeyError: key "Enzyme" not found
+Stacktrace:
+ [1] getindex
+   @ ./dict.jl:498 [inlined]
+ [2] precompile(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; internal_call::Bool, strict::Bool, warn_loaded::Bool, already_instantiated::Bool, timing::Bool, _from_loading::Bool, kwargs::@Kwargs{io::IOStream})
+   @ Pkg.API /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/Pkg/src/API.jl:1126
+ [3] precompile(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::@Kwargs{})
+   @ Pkg.API /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/Pkg/src/API.jl:159
+ [4] precompile(pkgs::Vector{Pkg.Types.PackageSpec})
+   @ Pkg.API /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/Pkg/src/API.jl:148
+ [5] precompile(; name::Nothing, uuid::Nothing, version::Nothing, url::Nothing, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::@Kwargs{})
+   @ Pkg.API /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/Pkg/src/API.jl:174
+ [6] precompile()
+   @ Pkg.API /orcd/software/community/001/pkg/julia/1.10.4/share/julia/stdlib/v1.10/Pkg/src/API.jl:165
+ [7] top-level scope
+   @ none:1

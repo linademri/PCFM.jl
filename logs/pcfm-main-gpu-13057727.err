@@ -1,0 +1,17 @@
+ERROR: ArgumentError: Package MadNLPGPU not found in current path.
+- Run `import Pkg; Pkg.add("MadNLPGPU")` to install the MadNLPGPU package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2405 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:376 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2388
+ [4] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2364
+ [5] eval(m::Module, e::Any)
+   @ Core ./boot.jl:489
+ [6] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:283
+ [7] _start()
+   @ Base ./client.jl:550

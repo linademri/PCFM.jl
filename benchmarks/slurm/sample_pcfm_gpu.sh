@@ -22,7 +22,7 @@
 set -euo pipefail
 mkdir -p slurm_logs results checkpoints
 
-module load julia/1.12.6 || module load julia/1.12.6
+module load julia/1.10.4 || module load julia/1.10.4
 nvidia-smi
 
 export OPENBLAS_NUM_THREADS=$SLURM_CPUS_PER_TASK
